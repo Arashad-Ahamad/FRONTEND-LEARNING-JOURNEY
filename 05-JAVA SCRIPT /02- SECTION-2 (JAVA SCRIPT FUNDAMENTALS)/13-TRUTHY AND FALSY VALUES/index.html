@@ -1,0 +1,40 @@
+<!DOCTYPE html>  
+<html lang="en">  
+  <head>  
+    <meta charset="UTF-8" />  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <title>Truthy and Falsy Values in JavaScript</title>  
+    <script src="script.js" defer></script>  
+  </head>  
+  <body>  
+    <h1>Truthy and Falsy Values in JavaScript</h1>  
+
+    <p>  
+      In JavaScript, any value can be converted to `true` or `false` using the `Boolean()` function.  
+      Values that return `true` are called **Truthy** values, and values that return `false` are called **Falsy** values.  
+    </p>  
+
+    <h2>Truthy Values:</h2>
+    <p>Values that return `true` when passed to the `Boolean()` function are considered **Truthy**.</p>
+    <ul>  
+      <li>Non-empty strings → '0', 'false', 'hello', etc.</li>  
+      <li>Non-zero numbers → 42, -42, 3.14,10,20 etc.</li>  
+      <li>Objects → {}, {name: "Arashad"}</li>  
+      <li>Arrays → [], [1, 2, 3]</li>  
+      <li>Functions → function(){}, ()=>{}</li>  
+      <li>Special values → Infinity, -Infinity</li>  
+    </ul>  
+
+    <h2>Falsy Values:</h2> 
+    <p>Values that return `false` when passed to the `Boolean()` function are considered **Falsy**.</p>
+    <ul>  
+      <li>0 → The number zero</li>  
+      <li>-0 → Negative zero</li>  
+      <li>NaN → Not a Number</li>  
+      <li>'' → Empty string</li>  
+      <li>undefined → A value that is not defined</li>  
+      <li>null → A null value</li>  
+    </ul>  
+  </body>  
+</html>

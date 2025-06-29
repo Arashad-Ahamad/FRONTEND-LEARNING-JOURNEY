@@ -1,0 +1,121 @@
+body {
+  background-color: #202124;
+  margin: 0;
+  font-family: "Roboto", serif;
+  color: rgba(232, 234, 237, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.logo {
+  max-width: 500px;
+  width: 100%;
+}
+
+.search-bar {
+  border: 2px solid rgba(95, 99, 104, 1);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  margin-top: 32px;
+}
+
+.search-bar input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  width: 100%;
+  padding: 16px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.search-bar:hover,
+.search-bar:focus-within {
+  background-color: rgba(48, 49, 52, 1);
+  border-color: #303134;
+  box-shadow: 0px 0px 4px 2px rgba(31, 32, 34, 1);
+}
+
+.search-bar:focus-within {
+  border-radius: 40px 40px 0 0;
+}
+
+.search-icon {
+  width: 20px;
+}
+
+.close-icon {
+  width: 17px;
+  display: none;
+}
+
+.search-bar:focus-within .close-icon {
+  display: block;
+}
+
+.suggestion-menu {
+  background-color: rgba(48, 49, 52, 1);
+  border-radius: 0 0 40px 40px;
+  box-shadow: 0px 3px 4px 2px rgba(31, 32, 34, 1);
+  padding: 0px 0 16px;
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.search-menu {
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.suggestion-menu p {
+  margin: 0;
+  padding: 8px 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.suggestion-menu p:hover {
+  background-color: #3c4043;
+}
+
+.search-bar:focus-within+.suggestion-menu {
+  display: block;
+}
+
+.top-border {
+  border-top: 2px solid rgba(95, 99, 104, 1);
+  margin-inline: 25px;
+  margin-bottom: 8px;
+}
+
+.doodle-shape {
+  width: 131px;
+  position: fixed;
+  right: 40px;
+  bottom: 0;
+}
+
+@media (max-width: 1000px) {
+  .doodle-shape {
+    right: 16px;
+  }
+}

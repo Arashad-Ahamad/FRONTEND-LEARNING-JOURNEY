@@ -1,0 +1,76 @@
+.Container {
+  background-color: slategrey;
+  min-height: 60vh;
+  display: grid;
+  /* grid-template-columns: repeat(3, 150px); */
+  /* grid-template-rows: repeat(2, 200px); */
+  grid-template-areas:
+    "Bangalore Bangalore Delhi Pune"
+    "Bangalore Bangalore Delhi Pune"
+    "Mumbai Mumbai Mumbai Pune";
+  /* grid-auto-columns: 150px; */
+  /* grid-auto-rows: 150px; */
+}
+.box {
+  color: white;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.box-1 {
+  background-color: brown;
+  /* grid-column-start: Bangalore;
+  grid-column-end: Bangalore;
+  grid-row-start: Bangalore;
+  grid-row-end: Bangalore; */
+  /* grid-row: Bangalore;
+  grid-column: Bangalore; */
+  grid-area: Bangalore;
+}
+.box-2 {
+  background-color: yellowgreen;
+  grid-area: Delhi;
+}
+.box-3 {
+  background-color: violet;
+  grid-area: Pune;
+}
+.box-4 {
+  grid-area: Mumbai;
+  background-color: burlywood;
+}
+.box-5 {
+  background-color: aquamarine;
+}
+.box-6 {
+  background-color: cadetblue;
+}
+.box-6 {
+  background-color: tomato;
+}
+.box-7 {
+  background-color: thistle;
+}
+.box-8 {
+  background-color: slategray;
+}
+.box-9 {
+  background-color: sandybrown;
+}
+.box-10 {
+  background-color: purple;
+}
+.box-11 {
+  background-color: chartreuse;
+}
+.box-12 {
+  background-color: sienna;
+}
+@media (max-width: 500px) {
+  .Container {
+    grid-template-areas:
+      "Bangalore Bangalore Delhi"
+      "Bangalore Bangalore Delhi"
+      "Mumbai Mumbai Pune "
+      "Mumbai Mumbai Pune";
+  }
+}

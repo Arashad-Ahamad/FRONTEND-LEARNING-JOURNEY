@@ -1,0 +1,80 @@
+.Container {
+  background-color: teal;
+  min-height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 2fr 3fr 1fr; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-columns: repeat(4, 100px); */
+  /* grid-template-rows: repeat(3, 100px); */
+  /* grid-template-columns: 20% 20% 20% 20% 20%; */
+  /* grid-template-columns: repeat(5, 20%); */
+  /* grid-template-columns: repeat(4, 25%); */
+  /* column-gap: 1rem; */
+  /* row-gap: 1rem; */
+  /* gap: 10px; */
+}
+
+.box {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-1 {
+  background-color: brown;
+  /* grid-column-start: 3; */
+  /* grid-row-start: 2; */
+  /* grid-column-end: 5; */
+  /* grid-row-end: 4; */
+}
+
+.box-2 {
+  background-color: yellowgreen;
+}
+
+.box-3 {
+  background-color: violet;
+}
+
+.box-4 {
+  background-color: burlywood;
+}
+
+.box-5 {
+  background-color: aquamarine;
+}
+
+.box-6 {
+  background-color: cadetblue;
+}
+
+.box-6 {
+  background-color: tomato;
+}
+
+.box-7 {
+  background-color: thistle;
+}
+
+.box-8 {
+  background-color: slategray;
+}
+
+.box-9 {
+  background-color: sandybrown;
+}
+
+.box-10 {
+  background-color: purple;
+}
+
+.box-11 {
+  background-color: chartreuse;
+}
+
+.box-12 {
+  background-color: sienna;
+}

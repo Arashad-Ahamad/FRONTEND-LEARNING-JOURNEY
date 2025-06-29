@@ -1,0 +1,54 @@
+body{margin: 0;
+
+}
+*{
+    box-sizing: border-box;
+}
+.countener{
+    min-height: 350px;
+    max-width: 400px;
+    background-color: yellowgreen;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+.name-first{
+    position: relative;
+    left: -6px;
+
+}
+.name-second{
+    position: relative;
+    right: -6px;
+}
+.email
+{
+    position: relative;
+    top: 10px;
+    width: 372px;
+    
+}
+.password{
+    position: relative;
+    top: 20px;
+    width: 372px;
+}
+.co-password{
+    position: relative;
+    top: 30px;
+    width: 372px;
+}
+.abc{
+    position: relative;
+    top: 40px;
+    left: -50px;
+
+}
+.bcd{
+    position: relative;
+    top: 60px;
+    
+
+
+}
+

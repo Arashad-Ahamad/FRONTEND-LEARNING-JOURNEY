@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Operators in JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Logical Operators in JavaScript</h1>
+    <p>Logical operators are used to combine multiple conditions and return <b>true</b> or <b>false</b> based on the
+        given conditions.</p>
+
+    <ol>
+        <li>
+            <h3> <code>&&</code> (AND) Operator</h3>
+            <p><b>Returns true only if both conditions are true.</b></p>
+            <p>If any one condition is false, the result is false.</p>
+
+            <h4>Example 1 (True Case):</h4>
+            <pre>
+let age = 20;
+let hasTicket = true;
+console.log(age >= 18 && hasTicket); // true
+            </pre>
+            <p><b>Explanation:</b> <br>
+                - <code>age >= 18</code> → (True) <br>
+                - <code>hasTicket</code> → (True) <br>
+                - <code>True && True</code> → <b>Result: True</b></p>
+
+            <h4>Example 2 (False Case):</h4>
+            <pre>
+let age = 16;
+let hasTicket = true;
+console.log(age >= 18 && hasTicket); // false
+            </pre>
+            <p><b>Explanation:</b> <br>
+                - <code>age >= 18</code> → (False) <br>
+                - <code>hasTicket</code> → (True) <br>
+                - <code>False && True</code> → <b>Result: False</b></p>
+        </li>
+
+        <li>
+            <h3> <code>||</code> (OR) Operator</h3>
+            <p> <b>Returns true if at least one condition is true.</b></p>
+            <p> False only if both conditions are false.</p>
+
+            <h4>Example 1 (True Case):</h4>
+            <pre>
+let hasID = false;
+let hasPassport = true;
+console.log(hasID || hasPassport); // true
+            </pre>
+            <p><b>Explanation:</b> <br>
+                - <code>hasID</code> → (False) <br>
+                - <code>hasPassport</code> → (True) <br>
+                - <code>False || True</code> → <b>Result: True</b></p>
+
+            <h4>Example 2 (False Case):</h4>
+            <pre>
+let hasID = false;
+let hasPassport = false;
+console.log(hasID || hasPassport); // false
+            </pre>
+            <p><b>Explanation:</b> <br>
+                - <code>hasID</code> → (False) <br>
+                - <code>hasPassport</code> → (False) <br>
+                - <code>False || False</code> → <b>Result: False</b></p>
+        </li>
+
+        <li>
+            <h3> <code>!</code> (NOT) Operator</h3>
+            <p> <b>Reverses the boolean value (True becomes False and False becomes True).</b></p>
+
+            <h4>Example 1 (True Case):</h4>
+            <pre>
+let isOnline = false;
+console.log(!isOnline); // true
+            </pre>
+            <p><b>Explanation:</b> <br>
+                - <code>isOnline</code> → (False) <br>
+                - <code>!False</code> → <b>Result: True</b></p>
+
+            <h4>Example 2 (False Case):</h4>
+            <pre>
+let isOnline = true;
+console.log(!isOnline); // false
+            </pre>
+            <p><b>Explanation:</b> <br>
+                - <code>isOnline</code> → (True) <br>
+                - <code>!True</code> → <b>Result: False</b></p>
+        </li>
+    </ol>
+
+    <h2>Quick Summary Table</h2>
+    <table>
+        <tr>
+            <th>Operator</th>
+            <th>Meaning</th>
+            <th>Example</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>&&</td>
+            <td>AND</td>
+            <td>true && true</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>&&</td>
+            <td>AND</td>
+            <td>true && false</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>||</td>
+            <td>OR</td>
+            <td>true || false</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>||</td>
+            <td>OR</td>
+            <td>false || false</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>!</td>
+            <td>NOT</td>
+            <td>!true</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>!</td>
+            <td>NOT</td>
+            <td>!false</td>
+            <td>true</td>
+        </tr>
+    </table>
+    <h2>Usage of Logical Operators</h2>
+    <p>Logical operators are used when we need to combine multiple conditions to make a decision.</p>
+    
+</body>
+
+</html>

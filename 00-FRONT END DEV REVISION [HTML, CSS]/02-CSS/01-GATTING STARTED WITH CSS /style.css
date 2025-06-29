@@ -1,0 +1,23 @@
+p {
+  color: teal;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: line-through; */
+  /* text-decoration: underline wavy; */
+  /* text-decoration: overline wavy; */
+  /* text-decoration: underline dotted; */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  /* text-align: end; */
+  text-align: center;
+  font-style: italic;
+  background-color: chocolate;
+}

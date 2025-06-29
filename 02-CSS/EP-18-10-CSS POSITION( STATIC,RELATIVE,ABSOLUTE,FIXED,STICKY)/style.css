@@ -1,0 +1,64 @@
+  /* div{position: ;
+background-color: chartreuse;
+/* top: 50px; */
+/* bottom: 20px; */
+/* left: 50px; */
+/* right: -30px; */
+/* top: 5px;
+bottom: 5px;
+left: 5px;
+right: 5px;
+} */
+
+/* body{
+    position: relative;
+    background-color: blue;
+    margin-top: 100px;
+} */
+ /* ul{
+    background-color: brown;
+     position: relative; 
+    top: 25px; } */
+    /* .pen{
+    background-color: aqua;
+    position: absolute ; */
+    /* top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px; */
+    /* inset: 25px;  */
+    /* right: 50px; */
+     /* bottom: 50px; } */
+/* .js{
+    background-color: violet;
+    position: fixed;
+    top: 45px; 
+    bottom: 20px;
+    left: 50px;
+    right: 20px;
+    margin-top: 50px;
+} */
+main{
+    /* overflow-y: scroll; */
+}
+.one{
+    position: sticky;
+    background-color: chocolate;
+    top: 100   0px;
+
+}
+ul{
+    height: 300px;
+    background-color: yellowgreen;
+    /* overflow-y: scroll; */
+    margin-top: -100px;
+}
+header{
+    position: sticky;
+    background-color: tomato;
+    position: sticky;
+    top: 0px;
+}
+body{
+    margin: 0px;
+}

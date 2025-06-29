@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+main {
+  display: inline-flex;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 1rem;
+}
+.second-container,
+.third-container {
+  margin-left: 1rem;
+}
+
+img {
+  max-width: 130px;
+  width: 100%;
+  float: left;
+  margin-right: 0.7rem;
+}
+p {
+  margin: 0;
+}
+
+@media (max-width: 780px) {
+  main {
+    flex-direction: column;
+  }
+  .container {
+    margin-left: 0;
+  }
+  .second-container,
+.third-container {
+  margin-top: 0.7rem;
+}
+}

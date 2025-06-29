@@ -1,0 +1,7 @@
+body{}
+.box{
+    font-family: sans-serif;
+    border: 4px solid ;
+    font-size: 4rem;
+    width: 200px;
+}

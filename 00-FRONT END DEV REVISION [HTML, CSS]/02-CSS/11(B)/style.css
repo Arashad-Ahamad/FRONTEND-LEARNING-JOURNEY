@@ -1,0 +1,33 @@
+.box1 {
+  width: 600px;
+  height: 400px;
+  background-color: green;
+  background-image: url(https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* background-size: 200px; */
+  /* background-size: 50%; */
+  background-size: cover;
+  /* background-position-x: 1px; */
+  background-position-y: -280px;
+  /* background-position: 0px -280px; */
+  /* background: green; */
+  /* box-shadow: 2px 3px  5px 5px rgba(0, 0, 0, 0.353); */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.353);
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: 160px;
+  /* transition: background-color 5000ms; */
+  /* transition: all 2000ms; */
+  transition: transform 1000ms;
+}
+
+.box1:hover {
+  /* background-color: violet; */
+  transform: rotate(45deg);
+}
+
+h1 {
+  text-shadow: 1px 2px 5px #804400;
+  padding-left: 10px;
+}

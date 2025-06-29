@@ -1,0 +1,48 @@
+.ai {
+    background-color: rgb(165, 42, 42);
+    width: 100px;
+    height: 100px;
+    /* transform: scale(3.5); */
+    /* transform-origin: 0% 0%; */
+    /* opacity: 0.5; */
+    /* transform: rotate(45deg); */
+    /* transform: translateX(100%);
+    transform: translateY(200px); */
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.4); 
+    border-radius: 12px;
+    padding: 8px;
+    /* transform: scale(1.2) rotate(45deg); */
+    background-image: url(/Snapchat-970189500.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: 0px -32px;
+    color: red;
+    transition: transform 5000ms;
+}
+.ai:hover{transform: rotate(65deg) translate(-50%, -50%) scale(1.5) ;
+    
+}
+
+h1 {
+    text-shadow: 1px 1px 5px red;
+}
+h2{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 30%;
+    left: 50px;
+    text-align:center;
+    transition:all 5000ms;
+
+}
+h2:hover{
+    background-color: seagreen;
+    transform: rotate(45deg) scale(1.4);
+
+}

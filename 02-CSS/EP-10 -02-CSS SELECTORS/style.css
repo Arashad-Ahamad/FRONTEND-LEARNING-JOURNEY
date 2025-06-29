@@ -1,0 +1,45 @@
+.ab{
+    color: #DD4825
+    
+}
+.cd{
+    color: #254bdd
+}
+.mp{
+    color: #EFD81D
+}
+.aa{
+    color: #5ED3F3 }
+.bb{
+    color: #0EA5E9
+}
+li{
+    font-weight: 900;
+}
+#ff{
+    font-size: 20px;
+}
+#zz{
+    font-size:25px;
+}
+#xx{
+    font-size: 32px;
+}
+#mm{
+   font-size: 40px; 
+}
+#nn{
+    font-size: 50px;
+}
+[class="ab"] {background-color: yellow;
+
+}
+[arshad]{
+    background-color: gray                ;
+}
+ul   mm  p{
+    background-color: green;
+}
+[arshad="ab"]:hover{ color: blue;}
+h2:hover {color: greenyellow;}
+.bf:hover{color: green;}                  m   

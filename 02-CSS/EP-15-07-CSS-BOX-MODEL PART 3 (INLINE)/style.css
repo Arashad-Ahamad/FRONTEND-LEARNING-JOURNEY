@@ -1,0 +1,50 @@
+/* p{
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    padding: 25px;
+    border: 10px solid red;
+    margin: 25px;
+    outline: 20px solid yellow;
+} */
+span{
+    background-color: aqua;
+    width: 60px;
+    height: 20pxpx;
+     padding: 20px; 
+     border: 20px solid yellowgreen; 
+margin: 20px;
+outline: 20px solid violet;
+display: inline-block;
+}
+    
+/* 
+.m{
+    padding: 30px;
+}
+a{
+    background-color: red;
+    padding: 25px;
+} */
+img{
+    width: 150px ;
+    background-color: blue;
+    padding: 20px ;
+    border: 20px solid deeppink;
+    margin: 25px;
+}
+iframe{
+    /* display: none; */
+    width:  400px;
+    height: 200px;
+    padding: 20px;
+    border: 20px solid hotpink;
+    margin: 20px;
+}
+video{
+    width: 150px;
+}
+.mm{
+    width: 500px;
+    height: 500px;
+}

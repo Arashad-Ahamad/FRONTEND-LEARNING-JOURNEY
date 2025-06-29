@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Operators in JavaScript: Numbers, Strings & Truthy/Falsy Values</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h2>Logical Operators in JavaScript: Numbers, Strings & Truthy/Falsy Values</h2>
+    <h3>Logical Operators:</h3>
+    <p>Logical operators are symbols that help check multiple conditions in JavaScript. They either give true/false or
+        check if a value is truthy/falsy.</p>
+
+    <h3>AND (&&) Operator:</h3>
+    <p><strong>Rule:</strong> Returns the first falsy value; if all are truthy, returns the last one.</p>
+    <p><strong>Example:</strong> <code>5 && 0 && 10</code> → <strong>Result: 0</strong></p>
+    <p><strong>Example:</strong> <code>7 && 9 && 15</code> → <strong>Result: 15</strong></p>
+
+    <h3>OR (||) Operator:</h3>
+    <p><strong>Rule:</strong> Returns the first truthy value; if all are falsy, returns the last one.</p>
+    <p><strong>Example:</strong> <code>0 || "" || 10 || 20</code> → <strong>Result: 10</strong></p>
+    <p><strong>Example:</strong> <code>0 || "" || null || undefined</code> → <strong>Result: undefined</strong></p>
+
+    <h3>NOT (!) Operator:</h3>
+    <p><strong>Rule:</strong> Converts truthy to false, falsy to true.</p>
+    <p><strong>Example:</strong> <code>!5</code> → <strong>Result: false</strong></p>
+    <p><strong>Example:</strong> <code>!0</code> → <strong>Result: true</strong></p>
+
+    <h3>Truthy & Falsy Values in JavaScript:</h3>
+    <p><strong>Falsy Values:</strong> <code>0, "", null, undefined, NaN, false</code></p>
+    <p><strong>Truthy Values:</strong> Everything else (like numbers <code>5, -10, "Hello"</code>)</p>
+
+    <h3>Understanding <code>console.log()</code> Behavior:</h3>
+    <p>If you type <code>console.log('Hello');</code> in the browser's developer console (Chrome, Firefox, etc.), you
+        will see "Hello" printed, but also "undefined". This happens because:</p>
+
+    <h4>1️ <code>console.log()</code> does not return anything:</h4>
+    <p>In JavaScript, <code>console.log()</code> is a function that prints a value to the console but does not return
+        any value.</p>
+    <p>When a function does not return anything, JavaScript automatically returns <code>undefined</code>.</p>
+
+    <h4>2️ Browser Console Behavior:</h4>
+    <p>When you type a statement directly in the browser console and press Enter, the console shows the returned value
+        of that statement.</p>
+    <p>Since <code>console.log('Hello');</code> does not return anything, the console shows <code>undefined</code>.</p>
+
+    <h4>Example 1: Using <code>console.log()</code></h4>
+    <pre><code>console.log('Hello');</code></pre>
+    <p><strong>Output in Console:</strong></p>
+    <pre><code>Hello
+undefined  // Because console.log() does not return anything</code></pre>
+
+</body>
+
+</html>

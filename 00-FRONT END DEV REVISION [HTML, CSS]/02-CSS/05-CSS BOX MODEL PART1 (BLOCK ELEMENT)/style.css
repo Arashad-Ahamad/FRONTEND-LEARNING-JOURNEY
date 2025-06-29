@@ -1,0 +1,29 @@
+body {
+  /* height: 600px; */
+}
+.parent {
+  /* max-width: 400px; */
+  /* height: 400px; */
+  /* height: 50%; */
+}
+.one {
+  background-color: green;
+  /* width: 400px; */
+  /* height: 50px; */
+  max-width: 400px;
+  /* overflow: hidden; */
+  /* overflow: visible; */
+  /* min-height: 2oopx; */
+  /* width: 50%; */
+  /* height: 50%; */
+  /* word-break: break-all; */
+  padding: 20px;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+}
+.one-child {
+  /* width: 50%; */
+  /* height: 50% ; */
+}

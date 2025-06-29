@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+     <!-- <link rel="stylesheet" href="style.css">   -->
+</head>
+<body>
+   <h1>Registration Form</h1> 
+   <p>Please fill out this form with the required information</p>
+   <br>
+   <form action="/">
+<p><div><label for="first name">Enter Your First Name:</label></div>
+<input type="text" name="a" id="first name" size="30"></p>
+<p><div><label for="last name">Enter Your Last Name:</label></div>
+<input type="text" name="a" id="last name" size="30"></p>
+<p>
+<div><label for="email">Enter Your Email:</label></div>
+<input type="email" name="a" id="email" size="30">
+</p>
+<p>
+    <div><label for="password">Create a New Password:</label></div>
+    <input type="password" name="a" id="password" size="30">
+</p>
+<br>
+<fieldset>
+<legend><p>Account type(required)</p></legend>
+<label for="type">Personal</label>
+<input type="radio" name="a" id="type">
+<label for="type2">Business</label>
+<input type="radio" name="a" id="type2"> 
+</fieldset>
+<br>
+<fieldset>
+    <legend>
+        Upload a profile picture:
+    </legend>
+    <input type="file" name="a" id="file" size="30">
+   <p> <div><label for="age">Input your age (years):</label></div>
+    <input type="number" name="a" id="age" > </p>
+    <div>How did you hear about us?</div>
+<select name="select one" >
+        <option value="select one">(select one)</option>
+        <option value="freeCodeCamp News">freeCodeCamp News</option>
+    <option value="freeCodeCamp YouTube Channel">freeCodeCamp YouTube Channel</option>
+<option value="freeCodeCamp Forum">freeCodeCamp Forum</option>
+<option value="Other">Other</option>
+</select>
+<p><div>
+    <label for="k">Provide a bio:</label>
+</div>
+<textarea name="a" id="k" placeholder="I like coding on the beach..." rows="10" cols="30">I like coding on the beach...
+    
+</textarea></p>   
+</fieldset>
+<p><input type="checkbox" name="a"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditons</a></p>
+<button type="submit">Submit</button>
+
+
+
+   </form>
+
+</body>
+</html>

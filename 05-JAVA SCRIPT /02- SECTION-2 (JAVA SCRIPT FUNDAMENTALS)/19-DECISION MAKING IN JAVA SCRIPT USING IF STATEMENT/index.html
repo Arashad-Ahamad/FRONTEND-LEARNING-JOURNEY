@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Making in JavaScript using If Statement</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Decision Making in JavaScript using If Statement</h1>
+    <p>In JavaScript, the <code>if</code> statement is used for decision-making based on a condition. If the condition is true, the code inside the <code>if</code> block will execute. If the condition is false, the code will not execute.</p>
+    
+    <h2>Step 1: Basic Syntax of if Statement</h2>
+    <pre>
+    if (condition) {
+        // This code runs only if the condition is true
+    }
+    </pre>
+    <p> If the condition is true, the inner code executes. Otherwise, nothing happens.</p>
+    
+    <h2>Step 2: Simple Example</h2>
+    <p>Check if a number is greater than 10:</p>
+    <pre>
+    let number = 15;
+
+    if (number > 10) {
+        console.log("Number is greater");
+    }
+    </pre>
+    <h2>Explanation:</h2>
+    <ul>
+        <li><strong>number = 15</strong>, and <code>15 > 10</code> is <strong>true</strong>, so <code>"Number is greater"</code> will be printed.</li>
+        <li>If <strong>number = 5</strong>, then <code>5 > 10</code> is <strong>false</strong>, so nothing will be printed.</li>
+    </ul>
+    <h3>Output:</h3>
+    <ul>
+        <li><strong>number = 15</strong>: "Number is greater" </li>
+    </ul>
+    
+    <h2>Step 3: if-else Statement (Two Conditions)</h2>
+    <p><strong>Use if-else when there are two possible conditions: either the condition is true or false.</strong></p>
+    <p>That means if the condition is true, the <code>if</code> block will execute, and if the condition is false, the <code>else</code> block will execute.</p>
+    <pre>
+    let age = 17;
+
+    if (age >= 18) {
+        console.log("You can vote");
+    } else {
+        console.log("You cannot vote");
+    }
+    </pre>
+    <h2>Explanation:</h2>
+    <ul>
+        <li>If <code>age = 19</code>, then <code>19 >= 18</code> is true, so "You can vote" will be printed.</li>
+        <li>If <code>age = 17</code>, then <code>17 >= 18</code> is false, so the <code>else</code> block will execute and "You cannot vote" will be printed.</li>
+    </ul>
+
+    <h3>Output:</h3>
+    <p><strong>When age = 19:</strong> "You can vote"</p>
+    <p><strong>When age = 17:</strong> "You cannot vote"</p> 
+    
+    <h2>Step 4: if-else if-else (Multiple Conditions)</h2>
+    <p>Use <code>else if</code> when multiple conditions need to be checked:</p>
+    <pre>
+    let marks = 80;
+
+    if (marks >= 90) {
+        console.log("Grade A");
+    } else if (marks >= 75) {
+        console.log("Grade B");
+    } else if (marks >= 50) {
+        console.log("Grade C");
+    } else {
+        console.log("Grade F");
+    }
+    </pre>
+    <h2>Explanation:</h2>
+    <ul>
+        <li>If <code>marks = 80</code>, then <code>80 >= 90</code> is <strong>false</strong>, so this condition will be skipped.</li>
+        <li>Then, <code>80 >= 75</code> is <strong>true</strong>, so <code>"Grade B"</code> will be printed.</li>
+        <li>The remaining conditions will not be checked because once a correct condition is found, the rest are ignored.</li>
+    </ul>
+    <h3>Output:</h3>
+    <ul>
+        <li><strong>marks = 80</strong>: "Grade B"</li>
+        <li><strong>marks = 45</strong>: "Grade F" (because 45 is less than 50, so the <code>else</code> block will execute)</li>
+    </ul>
+    
+    <h2>Step 5: Nested if Statement</h2>
+    <p>When one <code>if</code> is inside another <code>if</code>, it is called a nested if statement:</p>
+    <pre>
+    let num = 12;
+
+    if (num > 0) {
+        if (num % 2 === 0) {
+            console.log("This is a positive and even number");
+        } else {
+            console.log("This is a positive but odd number");
+        }
+    }
+    </pre>
+    <h2>Explanation:</h2>
+    <ul>
+        <li>First, it will check whether <code>num > 0</code>. If <strong>true</strong>, the inner <code>if</code> statement will be checked.</li>
+        <li>Then, it will check whether <code>num % 2 === 0</code>.</li>
+        <li>If <strong>true</strong>, it will print <code>"This is a positive and even number"</code>.</li>
+        <li>If <strong>false</strong>, the <code>else</code> block will execute and print <code>"This is a positive but odd number"</code>.</li>
+    </ul>
+    <h3>Output:</h3>
+    <ul>
+        <li><strong>num = 12</strong>: "This is a positive and even number"</li>
+        <li><strong>num = 13</strong>: "This is a positive but odd number"</li>
+    </ul>
+    
+    <h2>Step 6: Where to Use If Statements?</h2>
+    <ul>
+        <li>Checking if a number is positive or negative</li>
+        <li>Checking a user's age</li>
+        <li>Assigning grades based on marks</li>
+        <li>Controlling events in a program</li>
+    </ul>
+    
+    <h2>Summary</h2>
+    <ul>
+        <li><strong>if</strong> – Executes when the condition is true.</li>
+        <li><strong>if-else</strong> – Executes one block for true and another for false.</li>
+        <li><strong>if-else if-else</strong> – Checks multiple conditions.</li>
+        <li><strong>Nested if</strong> – An <code>if</code> inside another <code>if</code>.</li>
+    </ul>
+</body>
+</html>

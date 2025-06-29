@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: #D6E1FF;
+    font-family: "Red Hat Display", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.countener { 
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    margin-inline: auto;
+    margin: 1rem;
+    border-radius: 1rem;
+    margin-inline: auto;
+    padding-bottom: 1rem;
+    
+}
+.top{
+    height: 300px;
+    max-width: 500px;
+    background-image: url(/order-summary-component-main/images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius:1rem ;
+    border-top-right-radius:1rem ;
+}
+
+.midel{  
+    text-align: center;
+    margin-inline: 1rem;
+    opacity:0.8;
+
+}
+.midel p {
+    font-weight:100px;
+    opacity: 0.5;
+    
+}
+.music{ 
+    margin-top: 2rem;
+}
+.a{
+position: relative;
+left: 30px;
+}
+.b{
+    position: relative;
+    left: 45px;
+    bottom: 30px;
+}
+.c{
+    position:relative;
+    left: 95px;
+    bottom: 40px;
+    font-weight: 100;
+    opacity: 0.4;
+}
+.d{
+    position: relative;
+    right: -350px;
+    bottom:90px
+}
+.button{
+    margin-inline: center;
+    text-decoration: none;
+    color: white;
+    background-color: #382AE1;
+    padding: 10px 90px;
+    border-radius: 1rem;
+    display:flex;
+    text-align: center;
+justify-content: center;
+margin-inline: 4rem;
+}
+.button-cencel{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    opacity: 0.5;
+    color: black;
+}
+@media (max-width:550px){
+    .countener{
+        max-width: 400px;
+    }
+}

@@ -1,0 +1,35 @@
+h1{
+     
+}
+body{
+    margin: 0px;
+}
+.one{
+    background-color: blue;
+   max-width: 300px; 
+min-height: 100px;
+padding: 10px;
+/* border: 10px solid magenta; */
+border-top: 10px solid red;
+border-bottom: 10px solid turquoise;
+border-right: 10px solid slategray;
+border-left: 10px solid purple;
+margin: 20px;
+border-radius: 10px;
+}
+.two{
+    background-color: hotpink;
+width: 300px; 
+height: 300px;
+padding: 10px;
+border: 10px solid green;
+margin: 20px;
+border-radius: 50%;
+overflow: hidden;
+outline: 20px solid  peachpuff;
+}
+img{
+   max-width: 120%;
+   margin-top: -125px;
+   margin-right: -30px;
+}

@@ -1,0 +1,21 @@
+html{
+    font-size: 12px;
+}
+body{
+    /* font-size: 2em; */
+} 
+section{
+    background-color: aqua;0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    /* font-size: 2em; */
+    font-size: 5 rem;
+}
+.one{
+    background-color: blueviolet;
+    font-size: 3rem ;
+      /* font-size: 2em; */
+    /* width: 10em; */
+    /* width:10em;
+    font-size:2em;
+     padding: 0.5em; 
+     width: 2em; */
+}

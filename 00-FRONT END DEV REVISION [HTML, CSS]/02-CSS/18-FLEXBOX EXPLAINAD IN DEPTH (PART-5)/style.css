@@ -1,0 +1,28 @@
+.parent {
+  display: flex;
+  height: 600px;
+}
+.parent span {
+  background-color: orange;
+  margin-inline: auto;
+}
+.parent p {
+  background-color: violet;
+  margin: 0;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin-top: auto; */
+  /* margin-bottom: auto;  */
+  /* margin: auto; */
+  /* margin-block:auto; */
+  /* margin-inline: 16px;  */
+  /* margin: 80px 20px; */
+  margin-inline: auto;
+}
+.parent a {
+  background-color: teal;
+  margin-inline: auto;
+}
+.parent > * {
+  width: 200px;
+}

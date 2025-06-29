@@ -1,0 +1,20 @@
+html {
+  /* width: 500px; */
+}
+body {
+  margin: 0;
+  /* width: 800px; */
+}
+
+.box {
+  background-color: hotpink;
+  width: 50vw;
+  /* width: 50vh; */
+  height: 50vh;
+  padding: 10vw;
+  margin: 10vw;
+  border: 1vw solid green;
+  font-size: 10vw;
+  /* padding: 25px; */
+  box-sizing: border-box;
+}

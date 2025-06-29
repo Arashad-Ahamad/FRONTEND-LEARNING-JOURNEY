@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.two{
+    background-color:;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 5px solid red ;
+    /* box-sizing: border-box; */
+    margin: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: 50px solid green ;
+        
+} 
+.m{
+    background-color: aqua;  
+    max-width: 300px;
+    min-height: 100px;
+    padding: 10px;
+    border: 10px solid saddlebrown;
+    margin: 40px;
+    outline: 60px solid blue;
+    
+}
+img{
+    max-width: 120%;
+    margin-top: -110px;
+    margin-left: -10px;
+    margin-right: ;
+    background-color:tomato;
+}

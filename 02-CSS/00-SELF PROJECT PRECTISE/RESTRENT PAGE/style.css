@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    background-color: #F3E5D8;
+    font-weight: ;
+    font-family: [Young Serif](https://fonts.google.com/specimen/Young+Serif);
+    
+    
+    
+}
+.box{
+    max-width: 690px;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 120px;
+    left: 320px;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 0px 1px rgb(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+.a{
+    width: 100%;
+    border-radius: 10px;
+}
+.b{
+    font-size: 45px;
+    color:hsl(24, 5%, 18%);
+}
+.c{
+font-size: 18px;
+color: #918788;
+}
+.d{
+    position: relative;
+    left: 30px;
+    color: hsl(14, 45%, 36%);
+}
+.e span{
+    font-weight:bold;
+
+}
+.e{color:   hsl(30, 10%, 34%) ;
+
+}
+.f{
+    color: hsl(14, 45%, 36%);
+}
+.g{
+    color:hsl(30, 10%, 34%) ;
+}
+.h{
+    color: hsl(14, 45%, 36%);
+}
+.i{
+    color:hsl(30, 10%, 34%) ;
+}
+.i span{
+    font-weight: bold;
+}
+.j{
+color:hsl(14, 45%, 36%) ;
+}
+.k{
+    color:hsl(30, 10%, 34%) ;
+}
+table{width: 600px;
+    padding: 20px;
+
+}
+td{
+    padding: 15px;
+    color:hsl(30, 10%, 34%) ;
+}
+.l{
+    font-weight: bold;
+}
