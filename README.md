@@ -34,7 +34,7 @@ This repo contains everything I'm learning and building as I become a Front-End 
 
 ## 👨‍💻 About Me
 
-I'm **Arshad Ahamad**, a self-taught front-end developer from India.  
+I'm **Arashad Ahamad**, a self-taught front-end developer from India.  
 I love building clean, responsive, and accessible user interfaces.
 
 ---
