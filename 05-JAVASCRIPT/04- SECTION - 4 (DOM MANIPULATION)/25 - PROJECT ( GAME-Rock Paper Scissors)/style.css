@@ -87,6 +87,10 @@ body {
 
   .hand-icon {
     font-size: 8rem;
+    margin-top: -20px
+  }
+  .hands {
+    min-height: 140px; 
   }
 }
 
