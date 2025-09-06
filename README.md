@@ -21,7 +21,8 @@ This repo contains everything I'm learning and building as I become a Front-End 
 - ✅ Completed HTML5  
 - ✅ Completed CSS3  
 - ✅ Learned Git & GitHub and pushed multiple projects  
-- 🚀 Currently learning JavaScript – *DOM Completed, now diving into ASYNCHRONOUS JS*
+- 🚀 Completed JavaScript (ES6+, DOM, OOP, API Integration
+(Fetch, Axios))
 
 ---
 
