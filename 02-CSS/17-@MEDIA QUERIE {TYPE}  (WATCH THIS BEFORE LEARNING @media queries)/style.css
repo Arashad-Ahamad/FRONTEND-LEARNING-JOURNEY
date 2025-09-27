@@ -1,0 +1,18 @@
+.one{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border: 10px solid blue;
+    /* -webkit-print-color-adjust:exact; */
+
+
+}
+@media print {
+    .one{
+        border: 25px solid red;
+        background-color: aqua;
+    }
+    h1{
+        font-size: 90px;
+    }
+}

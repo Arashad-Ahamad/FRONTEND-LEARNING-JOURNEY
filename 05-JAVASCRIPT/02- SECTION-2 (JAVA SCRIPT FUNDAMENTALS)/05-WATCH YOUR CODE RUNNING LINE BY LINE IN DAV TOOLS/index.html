@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Execution in JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Code Execution in JavaScript</h1>
+    <!-- Memory Creation Phase -->
+    <p>
+        <strong>Memory Creation Phase:</strong> - JavaScript engine first
+        allocates memory for all variables and functions. - Variables declared
+        with <code>var</code> are assigned **undefined**. - Variables declared
+        with <code>let</code> and <code>const</code> are allocated memory but
+        remain **uninitialized** in the **Temporal Dead Zone (TDZ)** until the
+        code execution phase. - Function declarations are stored as a complete
+        reference, so they can be called even before their definition.
+    </p>
+    <!-- Execution Phase -->
+    <p>
+        <strong>Execution Phase:</strong> - Code is executed line by line. -
+        <code>var</code> variables are assigned their actual values during
+        execution. - <code>let</code> and <code>const</code> are initialized when
+        the code execution reaches their line. - Accessing `let` or `const` before
+        initialization will throw a **ReferenceError**. - Functions are executed
+        when they are called.
+    </p>
+
+</body>
+</html>

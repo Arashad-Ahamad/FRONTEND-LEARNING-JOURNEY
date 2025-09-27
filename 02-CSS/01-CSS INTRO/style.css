@@ -1,0 +1,55 @@
+h1{
+color: red;
+}
+p{
+    color: green;
+    background-color: yellow;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+}
+div{
+    color: aqua;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+span{
+    color: aqua;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: overline;
+
+    
+}
+h3{
+    
+    color: aqua;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline wavy;
+    text-align: right;
+}
+h4{
+    color: aqua;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: line-through;
+    text-decoration: overline wavy;
+}
+a{
+    text-decoration: none;
+    
+}
+h5{
+    font-size: 50px;
+    color: blue;
+
+}

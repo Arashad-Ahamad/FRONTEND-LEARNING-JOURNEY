@@ -1,0 +1,35 @@
+/* Cascade, specificity */
+
+
+.html.html {
+  background-color: firebrick !important;
+}
+.html {
+  background-color: teal !important;
+}
+.html {
+  background-color:purple!important;
+}
+#html#html#html#html#html#html#html#html#html#html#html{
+  background-color:orange;
+}
+li#html.html{
+    background-color: red;
+}
+#html {
+  background-color: violet;
+}
+#html {
+  background-color: slategrey;
+}
+ul {
+  background-color: aquamarine;
+  color: aquamarine;
+}
+ul {
+  background-color: blue;
+  color: burlywood;
+}
+.html {
+  background-color: teal;
+}

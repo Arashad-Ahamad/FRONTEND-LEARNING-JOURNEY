@@ -1,0 +1,37 @@
+/* @media screen {
+  .squre {
+    background-color: yellowgreen;
+  }
+} */
+.squre {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border: 16px solid teal;
+  /* print-color-adjust: exact;              For Firefox */
+  /* -webkit-print-color-adjust: exact;      For Chrome/Safari */
+}
+
+@media print {
+  h1 {
+    font-size: 8rem;
+  }
+
+  .squre {
+    border: 16px solid red;
+    background-color: yellowgreen;
+  }
+}
+
+/* @media all {
+    .squre{
+        border: 16px solid red;
+        background-color: yellowgreen;
+    }
+} */
+/* @media screen {
+    .squre{
+        border: 16px solid red;
+        background-color: yellowgreen;
+    }
+} */

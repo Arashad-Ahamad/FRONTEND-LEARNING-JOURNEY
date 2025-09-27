@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    font-family: "Salsa", cursive;
+}
+.hero{
+    /* min-height: 100vh; */
+    background-color: #F99501;
+    background-image: url(image/orange-backdrop\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.jhalar{
+   width: 220px;
+   margin-bottom:-200px;
+}
+
+ .pragraph-and-audio{
+    margin-left: 231px;
+ }
+ 
+ audio::-webkit-media-controls-play-button,
+ audio::-webkit-media-controls-panel {
+ background-color:  #FBD8A4;
+ color: #000;
+ }
+ .audio-countener {
+    background-color: #FBD8A4;
+    max-width: 496px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding-left: 20px;
+
+
+ }
+ /* .one{
+    margin-left: 10px;
+ }
+ .two{
+    margin-left: 5px;
+ }
+ .three{
+    margin-left:5px;
+ } */
+.hero p{
+    font-size :46px;
+    max-width: 400px;
+}
+.laxmi{max-width: 900px;
+   width: 100%;
+   display: block;
+   margin-inline: auto;
+   
+    
+}
+.hi{
+   background-color: #F99501;
+   padding-inline: 1rem;  
+   padding-block: 1rem;
+
+}
+.horizontal-divider{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   max-width: 1010px;
+   width: 100%;
+margin-inline: auto;
+padding-top: 1rem;
+margin-bottom: 2rem;
+
+}
+.circle{
+   width: 10px;
+   height: 10px;
+   background-color: #FBD8A4;
+   border-radius: 100%;
+    flex-shrink: 0;
+
+}
+.horizontal-line{
+   height: 3px;
+   background-color: #FBD8A4;
+   width: 468px;
+
+}
+ h2{
+   font-family: "Style Script", cursive;
+   font-size: 54px;
+   text-align: center;
+   
+    }
+    .white-card-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .little-girl{
+      width: 250px;
+      margin-left: -5rem;
+    }
+    .white-card{
+      max-width: 500px;
+      background-color: white;
+      padding: 4rem;
+      border-radius: 2rem;
+
+    }
+.white-card p{
+   font-size: 2rem;
+}
+.lakshmi-ganesha-card{
+   background-color: white;
+   border-radius: 2rem;
+   max-width:772px ;
+   display: flex;
+   margin-inline: auto;
+   
+}
+.lakshmi-ganesha-card img{
+   width: 50%;
+}
+
+
+.thankyou-text{
+   max-width: 772px;
+   width: 100%;
+   margin-inline: auto;
+   padding-block: 1rem;
+   padding-left: 0;
+   /* padding-right: 8rem; */
+}
+.thankyou-text h2 {
+   text-align: left;
+
+}
+.last{
+   text-align: right;
+}
+@media (max-width:840px) {
+   .first{
+      display:block ;
+      margin-left: auto;
+   }
+   .second{
+      display: none;
+
+   }
+   .lakshmi-ganesha-card{
+      padding: 2rem;
+   }
+   /* .one{
+      display: none;
+   }
+   .two{
+      display: none;
+   }
+.three{
+   display:none  } */
+.one,.two,.three{
+   display: none;
+}
+.audio-countener{
+   max-width: max-content;
+}
+.hero p{
+   font-size:28px;
+}
+.white-card p{
+   font-size: 1.25rem;
+}
+.little-girl{
+   width: 160px;
+}
+.white-card{
+   padding-block: 1.25rem;
+   padding-left: 2rem;
+   
+}
+/* .pragraph-and-audio{
+   margin-left: 1rem; } */
+
+
+}
+
+
+
+@media (max-width:540px){
+   .hero p {
+      font-size: 24px;
+
+   }
+   .pragraph-and-audio{
+   margin-left: 1rem;
+   margin-top: 13rem;
+}.first{
+   width: 100%;
+   max-width: 300px;
+}
+h2{
+   font-size: 32px;
+}
+.white-card p{
+   font-size: 1rem;
+
+ }
+
+ }

@@ -1,0 +1,19 @@
+.lg {
+    color: aquamarine;
+    background-color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lgBox {
+    font-size: 50px;
+}
+
+.item {
+    background-color: yellowgreen;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.hidden {
+    display: none;
+}

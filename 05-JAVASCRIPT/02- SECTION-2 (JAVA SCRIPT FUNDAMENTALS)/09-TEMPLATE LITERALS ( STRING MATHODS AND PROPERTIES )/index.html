@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="script.js"></script>
+  <title>String Methods and Properties</title>
+</head>
+
+<body>
+  <h1>String Methods and Properties</h1>
+
+  <p>
+    Strings are indexed, which means we can access any individual character of a string using its index number.
+  </p>
+  <p>Expression: <code>'Hello World'[1]</code></p>
+  <p>Result: <code>'e'</code></p>
+
+  <h2>Property</h2>
+  <ul>
+    <li>
+      <code>length</code> → Returns the total number of characters in a string.
+    </li>
+  </ul>
+
+  <h2>Methods (Without Argument)</h2>
+  <ul>
+    <li>
+      <code>toUpperCase()</code> → Converts all characters of the string to uppercase.
+    </li>
+    <li>
+      <code>toLowerCase()</code> → Converts all characters of the string to lowercase.
+    </li>
+    <li>
+      <code>trim()</code> → Removes extra spaces from the beginning and end of the string.
+    </li>
+    <li>
+      <code>trimStart()</code> → Removes extra spaces from the beginning of the string.
+    </li>
+    <li>
+      <code>trimEnd()</code> → Removes extra spaces from the end of the string.
+    </li>
+  </ul>
+
+  <h2>Methods (With Argument)</h2>
+  <ul>
+    <li>
+      <code>includes()</code> → Checks if a substring exists in the string.
+    </li>
+    <li>
+      <code>indexOf()</code> → Returns the index of the first occurrence of a substring.
+    </li>
+    <li>
+      <code>replace()</code> → Replaces the first matching substring with the provided value.
+    </li>
+    <li>
+      <code>replaceAll()</code> → Replaces all matching substrings with the provided value.
+    </li>
+    <li>
+      <code>concat()</code> → Joins two or more strings.
+    </li>
+    <li>
+      <code>padStart()</code> → Pads the string from the beginning with a specific character until it reaches the
+      desired length.
+    </li>
+    <li>
+      <code>padEnd()</code> → Pads the string from the end with a specific character until it reaches the desired
+      length.
+    </li>
+    <li>
+      <code>charAt()</code> → Returns the character at a specific index.
+    </li>
+    <li>
+      <code>charCodeAt()</code> → Returns the ASCII value of the character at a specific index.
+    </li>
+    <li>
+      <code>split()</code> → Splits a string into an array of substrings based on a specified separator.
+    </li>
+  </ul>
+
+  <p>
+    <a href="https://www.w3schools.com/jsref/jsref_obj_string.asp" target="_blank">
+      Learn More...
+    </a>
+  </p>
+
+  <h2>String Template Literal </h2>
+  <p>
+    Template literals allow you to embed expressions inside string literals using backticks (<code>`</code>) instead of
+    quotes.
+  </p>
+  <ul>
+    <li>
+      Use the <code>${expression}</code> syntax to embed expressions in the string.
+    </li>
+    <li>
+      Example: <code>const name = 'Arashad'; <br> const greeting = `Hello, ${name}!`;</code>
+    </li>
+    <li>
+      Result: <code>Hello, Arshad!</code>
+    </li>
+  </ul>
+</body>
+
+</html>

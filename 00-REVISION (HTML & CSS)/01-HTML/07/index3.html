@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML FORM</title>
+</head>
+
+<body>
+  <h1>HTML FORM</h1>
+  <!-- YouTube Search Form -->
+  <form id="search_form" action="https://www.youtube.com/results" target="_blank">
+    <p>
+    <div><label for="Youtube">Youtube </label></div>
+    <input id="Youtube" type="text" name="search_query" placeholder="YouTube Search"
+      style="width: 100%; max-width: 300px" />
+    <button type="submit">Enter</button></p>
+  </form>
+  <!-- Flipkart Search Form -->
+  <form action="https://www.flipkart.com/search" target="_blank">
+    <p>
+    <div><label for="flipkart">Flipkart</label></div>
+    <input id="flipkart" type="text" name="q" placeholder="Flipkart Search" style="width: 100%; max-width: 300px" />
+    <button type="submit">Enter</button></p>
+  </form>
+  <h2>From</h2>
+  <form action="/index.html">
+    <!-- Email Field -->
+    <p>
+    <div><label for="EmailID">Email ID</label></div>
+    <input name="email" id="EmailID" type="email" placeholder="Please enter your email"
+      style="width: 100%; max-width: 300px" required /></p>
+    <!-- Password Field -->
+    <p>
+    <div><label for="password">Password</label></div>
+    <input name="password" id="password" type="password" placeholder="Please enter you password"
+      style="width: 100%; max-width: 300px" required minlength="6"></p>
+    <!-- Mobile Number Field -->
+    <p>
+    <div><label for="Mobile">Mobile Number</label></div>
+    <input name="mobile" type="number" id="Mobile" placeholder="Please enter your mobile number"
+      style="width: 100%; max-width: 300px" required /></p>
+    <!-- Telephone field -->
+    <p>
+    <div><label for="tel">Telephone Number</label></div>
+    <input type="tel" name="tel" id="tel" required placeholder="Please enter your telephone number"
+      style="width: 100%; max-width: 300px"></p>
+
+
+    <!-- Date field -->
+    <p>
+    <div><label for="date">Date</label></div>
+    <input id="date" type="date" name="date" style="width: 100%; max-width: 300px" /></p>
+    <!-- Time field -->
+    <p>
+    <div><label for="time">Time</label></div>
+    <input type="time" name="time" id="time" style="width: 100%; max-width: 300px"></p>
+    <!-- File field -->
+    <p><label for="file">File</label>
+      <input type="file" id="file" name="file">
+    </p>
+    <!-- Feedback field -->
+    <p>
+    <div><label for="feedback">Feedback</label></div>
+    <textarea name="feedback" id="feedback" placeholder="write something" style="max-width: 300px; width: 100%"
+      rows="10"></textarea></p>
+    <!-- Gender Selection -->
+    <p><label>Gender</label></p>
+    <div>
+      <input type="radio" id="Male" required name="Gender" value="Male">
+      <label for="Male">Male</label>
+      <input type="radio" id="female" name="Gender" required value="female">
+      <label for="female">female</label>
+    </div>
+    <!-- Checkbox and Button -->
+    <p>
+      <input type="checkbox" name="checkbox" id="checkbox" required />
+      <label for="checkbox">I agree to the Terms and Conditions</label>
+    <p><button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </p>
+    </p>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.container {
+  background-color: teal;
+  display: flow-root;
+}
+img {
+  width: 400px;
+  float: left;
+  /* float: right; */
+  margin-right: 0.7rem;
+  /* padding-left: 1rem; */
+  /* position: absolute; */
+}
+/* .first-paragarph{
+    background-color: lightblue;
+    clear: left;
+    clear: right;
+    clear: both;
+} */
+/* a{
+    width: 200px;
+    background-color: teal;
+    float:left;
+    float: right;
+    margin-right: 0.7rem;
+    
+} */

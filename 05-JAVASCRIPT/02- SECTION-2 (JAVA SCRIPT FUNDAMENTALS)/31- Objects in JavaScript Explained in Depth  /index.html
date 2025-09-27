@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Object Literals  </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <!-- <script src="class.js"></script> -->
+  
+</head>
+<body>
+  <h1>JavaScript Data Types</h1>
+
+  <h2>There are 2 main types of data types in JavaScript:</h2>
+  <ol>
+    <li><strong>Primitive (Value Types)</strong> – Stores single values directly.</li>
+    <li><strong>Non-Primitive (Reference Types)</strong> – Stores a <strong>reference (memory address)</strong> to the value, not the value itself.</li>
+  </ol>
+
+  <h2>Primitive Data Types (7 types):</h2>
+  <ol>
+    <li><strong>Number</strong> – <code>let age = 25;</code></li>
+    <li><strong>String</strong> – <code>let name = "Arshad";</code></li>
+    <li><strong>Boolean</strong> – <code>let isOnline = true;</code></li>
+    <li><strong>Undefined</strong> – <code>let x;</code></li>
+    <li><strong>Null</strong> – <code>let data = null;</code></li>
+    <li><strong>BigInt</strong> – <code>let big = 12345678901234567890n;</code></li>
+    <li><strong>Symbol</strong> – <code>let id = Symbol("id");</code></li>
+  </ol>
+
+  <h2>Non-Primitive Data Type: <code>Object</code></h2>
+  <p>
+    Non-primitive types like <strong>objects</strong> don’t store the value directly. They store the <strong>reference (address in memory)</strong> where the value is located.
+  </p>
+
+  <h3>Simple Example:</h3>
+  <pre><code>
+let person1 = { name: "Arshad" };
+let person2 = person1;
+
+person2.name = "Ahmed";
+
+console.log(person1.name); // Output: "Ahmed"
+  </code></pre>
+
+  <p><strong>Explanation:</strong> Both <code>person1</code> and <code>person2</code> point to the same object in memory. Changing one affects the other.</p>
+
+  <h3>Objects come in 3 main forms:</h3>
+  <ul>
+    <li><strong>Object Literals</strong> – <code>{ key: "value" }</code></li>
+    <li><strong>Arrays</strong> – <code>[1, 2, 3]</code></li>
+    <li><strong>Functions</strong> – <code>function greet() { }</code></li>
+  </ul>
+
+  <h2>Summary Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Category</th>
+        <th>Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>number</td>
+        <td>Primitive</td>
+        <td><code>let x = 10;</code></td>
+      </tr>
+      <tr>
+        <td>string</td>
+        <td>Primitive</td>
+        <td><code>let name = "Arshad";</code></td>
+      </tr>
+      <tr>
+        <td>boolean</td>
+        <td>Primitive</td>
+        <td><code>let isOnline = true;</code></td>
+      </tr>
+      <tr>
+        <td>undefined</td>
+        <td>Primitive</td>
+        <td><code>let y;</code></td>
+      </tr>
+      <tr>
+        <td>null</td>
+        <td>Primitive</td>
+        <td><code>let data = null;</code></td>
+      </tr>
+      <tr>
+        <td>bigint</td>
+        <td>Primitive</td>
+        <td><code>let big = 123n;</code></td>
+      </tr>
+      <tr>
+        <td>symbol</td>
+        <td>Primitive</td>
+        <td><code>let id = Symbol("id");</code></td>
+      </tr>
+      <tr>
+        <td>Object Literals</td>
+        <td>Non-Primitive</td>
+        <td><code>let obj = { key: "value" };</code></td>
+      </tr>
+      <tr>
+        <td>array</td>
+        <td>Non-Primitive</td>
+        <td><code>let arr = [1, 2, 3];</code></td>
+      </tr>
+      <tr>
+        <td>function</td>
+        <td>Non-Primitive</td>
+        <td><code>function sayHi() { }</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

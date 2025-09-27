@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  
+}
+.jhalar{
+    width: 220px;
+    height: 220px;
+    margin-bottom: -160px;
+}
+.hero-section {
+  min-height: 100vh;
+  background-image: url(/Images/orange-backdrop\ 1.png);
+  background-size: cover;
+}
+.paragraph-and-audio {
+  margin-left: 15rem;
+}
+.hero-section p {
+  font-size: 46px;
+  line-height: 57px;
+  max-width: 500px;
+  font-family: "Salsa", serif;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #FBD8A4;
+  }
+  .audio-container{
+    background-color: #FBD8A4;
+    max-width: 500px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+  
+  }

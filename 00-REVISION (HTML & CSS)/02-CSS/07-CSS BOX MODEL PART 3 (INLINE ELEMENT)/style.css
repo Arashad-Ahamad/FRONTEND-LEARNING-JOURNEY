@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  /* display: inline; */
+  background-color: yellowgreen;
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  border: 10px solid teal;
+  margin: 40px;
+}
+span {
+  display: inline-block;
+  /* display: block; */
+  /* display: none; */
+  background-color: hotpink;
+  width: 200px;
+  height: 100px;
+  padding: 70px;
+  border: 10px solid slateblue;
+  margin: 50px;
+  /* outline: 10px solid red; */
+}
+img {
+  max-width: 200px;
+  margin: 40px;
+}

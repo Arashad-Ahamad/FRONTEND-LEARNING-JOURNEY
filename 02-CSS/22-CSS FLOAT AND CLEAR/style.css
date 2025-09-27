@@ -1,0 +1,13 @@
+img{
+   float:left ; 
+   margin-right: 0.7rem;
+   width: 400px;
+}
+.first-paragraph{
+   /* background-color: hotpink; */
+   /* clear: left;  */
+}
+.container{
+   background-color: aqua;
+   display: flow-root;
+}

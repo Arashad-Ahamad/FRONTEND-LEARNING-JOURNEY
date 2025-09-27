@@ -1,0 +1,43 @@
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 25px solid blue;
+}
+/*   
+
+}
+
+/* @media (max-height:500px){ 
+    .square{
+        border: 25px solid aqua;
+        background-color: brown; }
+ }  */
+
+/* @media (min-height:500px){ 
+    .square{
+        border: 25px solid aqua;
+        background-color: brown; }
+ }  */
+
+/* @media (min-width:700px){ 
+    .square{
+        border: 25px solid aqua;
+        background-color: brown; }
+ } */
+
+
+ /* @media (max-width:700px){ 
+    .square{
+        border: 25px solid aqua;
+        background-color: brown; }
+ } */
+
+
+
+/* @media (500px <=width <= 700px){
+.square{
+    border: 25px solid aqua;
+    background-color: brown; }
+
+}  */

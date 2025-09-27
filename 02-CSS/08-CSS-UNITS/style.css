@@ -1,0 +1,35 @@
+html{
+    height: 400px;
+}
+body{
+    margin: 0px;
+    /* background-color: chocolate; */
+    height: 50%;
+}
+section{ background-color: blueviolet;
+    width: 50vw;
+    /* height: 50vh; */
+    padding: 10vw;
+    margin: 10vw;
+    border: 2vw solid green;
+    font-size: 10vw;
+    /* width: 400px;
+   
+    height: 50%;
+     padding: 10%;
+     box-sizing: border-box; */
+     /* margin: 10%; */
+}
+.one{
+    width: 50%;
+    /* font-size: 4px; */
+    background-color: aqua;
+    /* max-width: 400px;
+     width: 50%;
+    height: 50%;
+ padding: 10%;
+ margin: 10%;
+ border: 10% solid green; */
+ padding: 24px;
+ box-sizing: border-box;
+}

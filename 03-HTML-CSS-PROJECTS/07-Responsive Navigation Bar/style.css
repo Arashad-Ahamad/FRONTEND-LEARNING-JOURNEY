@@ -1,0 +1,249 @@
+body {
+    font-family: "Nunito", serif;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+} 
+
+header {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 48px;
+    padding-block: 15px;
+    max-width: 1400px;
+    margin-inline: auto;
+    position: relative;
+
+}
+
+.nav-user-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+
+}
+
+nav {
+    margin-inline: auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+
+}
+
+.user-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.Courses ul {
+    position: absolute;
+    top: 150%;
+    border: 1.5px solid rgba(233, 234, 235, 1);
+    box-shadow: 0px 4px 10px 0px rgba(30, 27, 27, 0.1);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    width: 290px;
+    padding-inline: 26px;
+    padding-block: 16px;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+
+}
+
+.Courses:hover ul {
+    opacity: 1;
+    pointer-events: all;
+    top: 100%;
+}
+
+.Courses ul>li:hover {
+    text-decoration: underline;
+}
+
+.Courses ul>li+li {
+    margin-top: 12px;
+}
+
+nav>ul {
+    display: flex;
+    gap: 48px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.user span {
+    font-size: 14px;
+}
+
+.Courses {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Courses>img {
+    transition: transform 0.25s ease-in-out;
+}
+
+.Courses:hover>img {
+    transform: rotate(-180deg);
+
+}
+
+nav>ul>li {
+    padding-block: 15px;
+}
+
+.user-icon {
+    display: flex;
+    position: relative;
+}
+
+.user-icon .green-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #22C55E;
+    position: absolute;
+    right: -3px;
+    bottom: 4px;
+}
+
+.close-icon,
+.Hamburger,
+.Hamburger input {
+    display: none;
+}
+
+@media (max-width:950px) {
+
+    .close-icon,
+    .Hamburger {
+        display: block;
+    }
+
+    .container {
+        padding-block: 10px;
+        padding-inline: 20px;
+    }
+
+    .nav-user-container {
+        display: none;
+        flex-direction: column-reverse;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 1);
+        border: 1.5px solid rgba(233, 234, 235, 1);
+        box-shadow: 0px 4px 10px 0px rgba(30, 27, 27, 0.1);
+        border-radius: 5px;
+        width: 290px;
+        top: 10px;
+        right: 10px;
+        align-items: flex-start;
+        padding-block: 12px;
+    }
+
+    .Hamburger:has(input:checked)+.nav-user-container {
+        display: flex;
+    }
+
+    nav {
+        margin-inline: unset;
+        padding-left: 24px;
+    }
+
+    nav>ul {
+        flex-direction: column;
+        gap: 0;
+        justify-content: flex-start;
+    }
+
+    nav>ul>li {
+        padding-block: 8px;
+    }
+
+    .user {
+        justify-content: left;
+        border-bottom: 1px solid rgba(233, 234, 235, 1);
+        width: 100%;
+        padding-inline: 24px;
+        padding-bottom: 5px;
+        gap: 10px;
+    }
+
+    .close-icon {
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .Courses ul {
+        margin-left: -24px;
+
+
+    }
+
+    .Courses:hover ul {
+        position: relative;
+        transform: translateY(10px);
+        transition: all 0.25s ease-in-out;
+        border-radius: 0;
+        border-inline: 0;
+    }
+
+
+    .Courses:hover {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+
+    .Courses:hover img {
+        transform: rotate(-180deg);
+    }
+
+    .Courses span img {
+        transition: transform 0.25s ease-in-out;
+    }
+
+}

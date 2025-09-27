@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.header{
+    /* height: 200px; */
+    background-color: #065FD4;
+    color: white;
+    padding: 4rem;
+    background-image: url(/background.png);
+    background-repeat: no-repeat;
+    background-size:460px;
+    background-position-x:100% ;
+    background-position-y:-260px;
+
+}
+.header h1{
+    margin: 0px;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+.header span{
+    font-size: 2rem;
+}
+.header img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: white solid 5px;
+    vertical-align:middle;
+  
+}
+img+img{
+    margin-left: -1rem;
+}
