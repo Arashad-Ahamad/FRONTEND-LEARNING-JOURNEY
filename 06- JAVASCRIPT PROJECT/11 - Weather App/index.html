@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preload" href="/assets/bg.jpg" as="image">
+        <link rel="preload" as="image" href="/assets/message/search-city.png">
     <script src="script.js" defer></script>
 
 </head>
@@ -32,7 +34,7 @@
             </div>
 
             <div class="weather-summary-container">
-                <img src="/assets/weather/clouds.svg" class="weather-summary-img">
+                <img src="/assets/weather/clouds.svg" class="weather-summary-img" loading="eager">
                 <div class="weather-summry-info">
                     <h1 class="temp-txt">29 °C</h1>
                     <h3 class="condition-txt regular-txt">Clouds</h3>
@@ -60,38 +62,38 @@
             <div class="forecast-items-container">
                 <div class="forecast-items">
                     <h5 class="forecast-items-date regular-txt">29 sep</h5>
-                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg">
+                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg" loading="eager">
                     <h5 class="forecast-item-temp">29 °C</h5>
                 </div>
 
                 <div class="forecast-items">
                     <h5 class="forecast-items-date regular-txt">29 sep</h5>
-                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg">
+                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg" loading="eager">
                     <h5 class="forecast-item-temp">29 °C</h5>
                 </div>
 
                 <div class="forecast-items">
                     <h5 class="forecast-items-date regular-txt">29 sep</h5>
-                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg">
+                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg" loading="eager">
                     <h5 class="forecast-item-temp">29 °C</h5>
                 </div>
 
                 <div class="forecast-items">
                     <h5 class="forecast-items-date regular-txt">29 sep</h5>
-                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg">
+                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg" loading="eager">
                     <h5 class="forecast-item-temp">29 °C</h5>
                 </div>
 
                 <div class="forecast-items">
                     <h5 class="forecast-items-date regular-txt">29 sep</h5>
-                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg">
+                    <img class="forecast-item-img" src="/assets/weather/thunderstorm.svg" loading="eager">
                     <h5 class="forecast-item-temp">29 °C</h5>
                 </div>
             </div>
         </section>
 
         <section class="search-city section-message">
-            <img src="/assets/message/search-city.png">
+            <img src="/assets/message/search-city.png" loading="eager">
             <div>
                 <h1>Search City</h1>
                 <h4 class="regular-txt">
@@ -101,7 +103,7 @@
         </section>
 
         <section class="not-found section-message" style="display: none;">
-            <img src="/assets/message/not-found.png">
+            <img src="/assets/message/not-found.png" loading="eager">
             <div>
                 <h1>Search City</h1>
                 <h4 class="regular-txt">

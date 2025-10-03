@@ -14,6 +14,30 @@ const forecastItemsContainer = document.querySelector(
   '.forecast-items-container'
 )
 
+// Preload images
+  const imagesToPreload = [
+    '/assets/bg.jpg',                    
+    '/assets/message/search-city.png',   
+    '/assets/message/not-found.png',     
+    '/assets/weather/clouds.svg',      
+    '/assets/weather/thunderstorm.svg',
+    '/assets/weather/rain.svg',
+    '/assets/weather/snow.svg',
+    '/assets/weather/drizzle.svg',
+    '/assets/weather/clear.svg',
+    '/assets/weather/atmosphere.svg'
+  ];
+
+  imagesToPreload.forEach(src => {
+    const img = new Image();
+    img.src = src;
+  });
+
+window.addEventListener('load', () => {
+  document.body.style.backgroundImage = 'url(/assets/bg.jpg)'
+})
+
+
 const apiKey = '001b894e746586aa112c4cbd97920a5c'
 
 searchBtn.addEventListener('click', () => {
