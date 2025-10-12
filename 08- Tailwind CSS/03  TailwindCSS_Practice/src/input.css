@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&family=Poppins&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-Playwrite: "Playwrite DE SAS", cursive
+}

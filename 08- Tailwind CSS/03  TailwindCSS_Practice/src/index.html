@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <link href="/src/output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Tailwind CSS</h1>
+
+    <!------------------- Text Align Classes ------------------->
+    <p class="bg-gray-400 p-2 text-left">Left aligned text</p>
+    <p class="bg-green-300 p-2 text-center">Center aligned text</p>
+    <p class="bg-amber-400 p-2 text-right">Right aligned texty</p>
+    <p class="bg-purple-400 p-2 text-justify">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quo
+        quas tenetur neque architecto laborum? Cupiditate soluta ex culpa
+        repellendus minima repellat veritatis et mollitia illo laboriosam? Quam,
+        iure exercitationem. Lorem ipsum dolor sit amet consectetur, adipisicing
+        elit. Facilis, neque fuga vel voluptatum labore distinctio hic porro
+        facere voluptas numquam veritatis quam a, illum alias repellat
+        voluptatibus enim minus doloribus!
+    </p>
+
+    <!-- Responsive Text Align -->
+    <p class="bg-red-400 p-2 text-left md:text-center lg:text-right">
+        Responsive Text Alignment
+    </p>
+
+    <!-- Text Alignment + Color + Size Example -->
+    <h1 class="text-center text-3xl font-bold text-blue-600">Hello Arashad!</h1>
+
+    <!------------------- Display ------------------->
+    <!-- Block vs Inline vs Inline-Block -->
+    <div class="block bg-blue-500">Block Element</div>
+    <span class="inline bg-red-300">Inline Element</span>
+    <span class="inline bg-purple-500">Inline Element</span>
+    <div class="inline-block bg-yellow-400">Inline-Block Element</div>
+    <div class="inline-block bg-green-500">Inline-Block Element</div>
+
+    <!-- Flex Display -->
+    <div class="flex flex-col bg-gray-300 p-2 m-2">
+        <div class="bg-amber-700 p-2">Flex Box 1</div>
+        <div class="bg-blue-400 p-2">Flex Box 2</div>
+    </div>
+
+    <!-- Grid Display -->
+    <div class="grid grid-cols-2 gap-4 m-2 bg-gray-400 p-4">
+        <div class="bg-green-400 p-2">Grid Box 1</div>
+        <div class="bg-yellow-500 p-2">Grid Box 2</div>
+    </div>
+
+    <!-- Hidden (Display None) -->
+    <div class="bg-red-400 p-2 hidden">This element is hidden</div>
+
+    <!-- Responsive Display -->
+    <div class="bg-green-500 p-2 hidden md:block">
+        Hidden on mobile, visible on medium+ screens
+    </div>
+
+    <!------------------- font-family ------------------->
+    <p class="text-2xl font-sans">This is Sans font (default)</p>
+    <!-- Default Sans font -->
+    <p class="text-2xl font-serif">This is Serif font</p>
+    <!-- Default Serif font -->
+    <p class="text-2xl font-mono">This is Monospace font</p>
+    <!-- Default Monospace font -->
+
+    <!-- Custom Google Font  -->
+    <p class="font-(family-name:--font-poppins) text-2xl">Hello Arashad</p>
+    <p class="font-(family-name:--font-Playwrite) text-2xl">Hello Arashad</p>
+
+    <!------------------- Pseudo Classes ------------------->
+    <!-- Hover -->
+    <button class="bg-blue-500 text-white p-2 rounded m-2 hover:bg-blue-700">
+        Hover Me
+    </button>
+
+    <!-- Focus  -->
+    <input type="text" placeholder="Focus Me" class="border-2 border-gray-300 p-2 focus:border-blue-950" />
+
+    <!-- Active  -->
+    <button class="bg-green-400 text-white p-2 rounded active:bg-green-900">
+        Active Button
+    </button>
+
+    <!-- Disabled  -->
+    <button class="bg-gray-700 text-white p-2 rounded m-2 disabled:opacity-50">
+        Disabled Button
+    </button>
+
+    <!-- Visited -->
+    <a href="/" class="bg-red-500 p-2 rounded text-white visited:bg-green-400">Click</a>
+
+    <!-------------------  Transform, Transition ------------------->
+    <!-- Scale -->
+    <div class="bg-purple-500 p-4 text-white transform hover:scale-80 transition duration-300">
+        Hover Me
+    </div>
+
+    <!-- Rotate -->
+    <div
+        class="bg-green-400 w-[100px] h-[100px] rounded-4xl p-4 m-20 transform hover:-rotate-45 transition duration-300 text-white">
+        Hover Rotate
+    </div>
+
+    <!-- Translate -->
+    <div class="bg-amber-600 p-2 w-60 h-40 m-15 transform hover:translate-x-14 transition duration-300">
+        Hover Translate
+    </div>
+    <!-- <div class="bg-amber-600 p-2 w-60 h-40 m-15 transform hover:-translate-x-14 transition duration-300">Hover Translate</div> -->
+    <div class="bg-amber-600 p-2 w-60 h-40 m-15 transform hover:translate-y-14 transition duration-300">
+        Hover Translate
+    </div>
+    <!-- <div class="bg-amber-600 p-2 w-60 h-40 m-15 transform hover:-translate-y-14 transition duration-300">Hover Translate</div> -->
+
+    <!-- Combined Transform -->
+    <div
+        class="bg-green-900 p-2 w-[100px] h-[100px] m-15 text-white transform hover:scale-105 hover:rotate-6 hover:translate-x-3 transition duration-300">
+        Combined Transform
+    </div>
+
+    <!-------------------  Animate classes ------------------->
+    <div class="bg-green-500 w-30 h-30 rounded-full m-10 animate-bounce"></div>
+    <div class="bg-green-500 w-30 h-30 rounded-full m-10 animate-spin">h</div>
+    <div class="bg-green-500 w-20 h-20 rounded-full m-10 animate-ping"></div>
+    <div class="bg-red-500 w-20 h-20 rounded-full m-15 animate-pulse"></div>
+
+    <!-------------------  cursor-pointer ------------------->
+
+    <button class="bg-amber-400 p-2 text-white rounded m-4 cursor-pointer">Hello</button>
+
+    <!------------------- Position Classes ------------------->
+    <!-- Static (default) -->
+    <div class="bg-blue-500 text-white p-4">Static Position</div>
+
+    <!-- Relative -->
+    <div class="relative top-10 left-8 bg-green-400 text-white p-4">Relative Position</div>
+
+    <!-- Absolute  -->
+    <div class="absolute top-10 right-0 bg-red-900 p-2 text-white">Absolute Box</div>
+
+    <!-- Absolute inside Relative Parent -->
+    <div class="relative bg-gray-200 h-40 w-60">
+        <div class="absolute top-10 right-0 bg-red-500 p-2 text-white">
+            Absolute Box
+        </div>
+    </div>
+
+    <!-- Fixed (Viewport relative) -->
+    <div class="fixed top-0 bg-amber-900 p-4 text-white">Fixed Button</div>
+
+    <!-- Sticky -->
+    <div class="sticky top-0 bg-yellow-500 p-3 text-black">
+        Sticky Header
+    </div>
+
+
+    <!------------------- Media Queries ------------------->
+    <div class="w-full md:w-1/2 lg:1/3 bg-blue-500 p-4 text-white">
+        Responsive Box
+    </div>
+    <div class="text-sm md:text-xl lg:text-3xl"> Responsive Text</div>
+
+</body>
+
+</html>
