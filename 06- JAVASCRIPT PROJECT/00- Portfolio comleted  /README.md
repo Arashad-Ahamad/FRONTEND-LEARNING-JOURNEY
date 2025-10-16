@@ -27,21 +27,6 @@ Welcome to my personal portfolio website repository. This website showcases my f
 
 ---
 
-## Repository Structure
-
-- `index.html` — Home page
-- Other HTML files for sections like About, Skills, Projects, Certifications, Contact
-- `css/` — Stylesheets
-- `assets/` — Images and icons
-
----
-
-## How to View
-
-Open `index.html` in any modern browser to explore the website. It is fully responsive and optimized for various devices.
-
----
-
 ## Contact
 
 - Location: Ghazipur, Uttar Pradesh, India  
