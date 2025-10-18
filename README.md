@@ -1,51 +1,58 @@
 # 🧠 Frontend Learning Journey 🚀
 
-Welcome to my **Frontend Learning Journey** repository!  
-This repo contains everything I'm learning and building as I become a Front-End Web Developer.
+Welcome to my **Frontend Learning Journey**!
+This repo contains everything I’m learning and building as a **Front-End Web Developer**.
 
 ---
 
 ## 📁 Folder Structure
 
-- `00-REVISION (HTML & CSS)` – Key revision notes and mini practice tasks  
-- `01-HTML` – HTML5 essentials: semantic tags, forms, inputs, attributes, etc.  
-- `02-CSS` – CSS fundamentals: selectors, box model, flexbox, media queries, etc.  
-- `03-HTML-CSS-PROJECTS` – Responsive web projects using HTML and CSS  
-- `04-GIT-GITHUB` – Git basics, version control, GitHub setup, workflow, etc.  
-- `05-JAVASCRIPT` – JavaScript (Basics + Intermediate): variables, arrays, functions, objects, DOM, etc.
-- `06-JAVASCRIPT-PROJECTS` - JAVASCRIPT-PROJECTS
----
-
-## ✅ My Progress
-
-- ✅ Completed HTML5  
-- ✅ Completed CSS3  
-- ✅ Learned Git & GitHub and pushed multiple projects  
-- 🚀 Completed JavaScript (ES6+, DOM, OOP, API Integration
-(Fetch, Axios))
+* `00-REVISION (HTML & CSS)` – Key revision notes & mini practice
+* `01-HTML` – HTML5 essentials: semantic tags, forms, inputs, attributes
+* `02-CSS` – CSS fundamentals: selectors, box model, flexbox, media queries
+* `03-HTML-CSS-PROJECTS` – Responsive web projects (HTML + CSS)
+* `04-GIT-GITHUB` – Git basics, version control, GitHub setup & workflow
+* `05-JAVASCRIPT` – JS basics + intermediate: variables, arrays, functions, objects, DOM
+* `06-JAVASCRIPT-PROJECTS` – JS projects
+* `07-NPM` – npm & Tailwind CSS practice
+* `08-TAILWIND-CSS` – Tailwind CSS practice
+* `09-TAILWIND-CSS-PROJECTS` – Tailwind CSS projects
+* `10-CAROUSEL-USING-SWIPERJS` – SwiperJS projects
+* `11-REACT-JS` – React fundamentals, components, hooks, state, props, SPA, Virtual DOM, Vite setup
 
 ---
 
-## 📅 My Code Challenge
+## ✅ Progress
 
-- ✅ `#100DaysOfCode` – Completed  
-- 🔄 `#200DaysOfCode` – In progress…
+* ✅ HTML5 & CSS3 – Completed
+* ✅ Git & GitHub – Learned, workflow mastered, projects pushed
+* 🚀 JavaScript – ES6+, DOM, OOP, API Integration (Fetch, Async/Await, Axios)
+* ✅ npm & Tailwind CSS – Completed
+* ✅ SwiperJS – Completed
+* 🚀 React.js – Learning in progress (Components, JSX, Props, State, Hooks, SPA, Virtual DOM, Vite setup)
+
+---
+
+## 📅 Coding Challenges
+
+* ✅ `#100DaysOfCode` – Completed
+* 🔄 `#200DaysOfCode` – In Progress
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm **Arashad Ahamad**, a self-taught front-end developer from India.  
-I love building clean, responsive, and accessible user interfaces.
+Hi! I’m **Arshad Ahamad**, a self-taught **Front-End Developer** from India.
+I build **clean, responsive, and accessible user interfaces**.
 
 ---
 
-## 🔗 Let's Connect
+## 🔗 Connect
 
-- 🌐 Portfolio: [arashadahamad-portfolio.netlify.app](https://arashadahamad-portfolio.netlify.app/)  
-- 🐦 Twitter: [@ArashadAhamad10](https://x.com/ArashadAhamad10)  
-- 💼 LinkedIn: [Arashad Ahamad](https://www.linkedin.com/in/arashad-ahamad-768935337/)
+* 🌐 Portfolio: [arshadahamad-portfolio.netlify.app](https://arshadahamad-portfolio.netlify.app/)
+* 🐦 Twitter: [@ArashadAhamad10](https://x.com/ArashadAhamad10)
+* 💼 LinkedIn: [Arshad Ahamad](https://www.linkedin.com/in/arashad-ahamad-768935337/)
 
 ---
 
-Thanks for checking out my journey! 🌟
+Thanks for checking my journey! 🌟
