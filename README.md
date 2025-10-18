@@ -49,7 +49,7 @@ I build **clean, responsive, and accessible user interfaces**.
 
 ## 🔗 Connect
 
-* 🌐 Portfolio: [arshadahamad-portfolio.netlify.app](https://arshadahamad-portfolio.netlify.app/)
+* 🌐 Portfolio: [arshadahamad-portfolio.netlify.app](https://arashadahamad-portfolio.netlify.app/)
 * 🐦 Twitter: [@ArashadAhamad10](https://x.com/ArashadAhamad10)
 * 💼 LinkedIn: [Arshad Ahamad](https://www.linkedin.com/in/arashad-ahamad-768935337/)
 
