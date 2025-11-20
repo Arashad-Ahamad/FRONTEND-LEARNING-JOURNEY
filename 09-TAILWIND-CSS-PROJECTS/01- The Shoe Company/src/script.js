@@ -31,9 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const links = nav.querySelectorAll("a");
   links.forEach((link) => {
     link.addEventListener("click", function (e) {
-      // Uncomment below if you want to close on link click
-      // nav.classList.add('hidden');
-      // btn.innerHTML = hamburger;
+      nav.classList.add('hidden');
+      btn.innerHTML = hamburger;
     });
   });
 });
