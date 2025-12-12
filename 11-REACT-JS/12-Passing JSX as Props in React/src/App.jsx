@@ -1,4 +1,4 @@
-import ProfileCard from "../components/Profile"
+import ProfileCard from "./components/Profile"
 function App() {
  return (
    <>

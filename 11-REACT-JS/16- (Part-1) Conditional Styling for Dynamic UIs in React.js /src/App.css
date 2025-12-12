@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Jab input galat ho */
+.inputError {
+  border: 2px solid red;
+}
+
+/* Jab input sahi ho */
+.inputOk {
+  border: 2px solid green;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
