@@ -29,7 +29,7 @@ This repo contains everything I’m learning and building as a **Front-End Web D
 * 🚀 JavaScript – ES6+, DOM, OOP, API Integration (Fetch, Async/Await, Axios)
 * ✅ npm & Tailwind CSS – Completed
 * ✅ SwiperJS – Completed
-* 🚀 React.js – Learning in progress (Components, JSX, Props, State, Hooks, SPA, Virtual DOM, Vite setup)
+* 🚀 React.js –  (Components, JSX, Props, State, Hooks, SPA, Virtual DOM, Vite setup)
 
 ---
 
