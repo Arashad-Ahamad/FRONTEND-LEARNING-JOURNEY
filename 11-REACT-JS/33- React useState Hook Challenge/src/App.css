@@ -1,0 +1,113 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Full page center */
+body {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Card */
+.container {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 16px;
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Count text */
+.container p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.container span {
+  font-size: 28px;
+  color: #4facfe;
+  margin-left: 8px;
+}
+
+/* Input section */
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input {
+  margin-left: 10px;
+  padding: 8px;
+  width: 80px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #4facfe;
+}
+
+/* Buttons grid */
+.grid-three-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Buttons style */
+button {
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background: #4facfe;
+  color: white;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #2b8efc;
+  transform: translateY(-2px);
+}
+
+/* Reset button different color */
+button:nth-child(3) {
+  background: #ff5c5c;
+}
+
+button:nth-child(3):hover {
+  background: #e04747;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    padding: 25px 18px;
+  }
+
+  .container p {
+    font-size: 20px;
+  }
+
+  .container span {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 13px;
+  }
+}
