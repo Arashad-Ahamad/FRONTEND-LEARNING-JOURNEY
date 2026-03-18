@@ -1,0 +1,201 @@
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* VARIABLES */
+:root {
+  --bg-gradient: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+
+  --success: #22c55e;
+  --danger: #ef4444;
+
+  --text-dark: #111827;
+  --text-light: #ffffff;
+
+  --card-bg: rgba(255, 255, 255, 0.95);
+
+  --radius: 12px;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* BODY */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;   /* 👈 center horizontally */
+}
+
+/* CONTAINER */
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  color: var(--text-light);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.date-time {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-top: 6px;
+}
+
+/* FORM CARD */
+.form {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* FORM */
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;   /* 👈 main fix */
+}
+
+/* INPUT */
+form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: var(--radius);
+  border: 1px solid #e5e7eb;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* BUTTON */
+form button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--primary);
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* LIST */
+.myUnOrdList ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* TODO ITEM */
+.todo-item {
+  background: var(--card-bg);
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+/* TEXT */
+.todo-item span {
+  flex: 1;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* BUTTONS */
+.check-btn,
+.delete-btn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+/* CHECK */
+.check-btn {
+  background: var(--success);
+  color: white;
+}
+
+/* DELETE */
+.delete-btn {
+  background: var(--danger);
+  color: white;
+}
+
+/* COMPLETE */
+.checkList {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* CLEAR BUTTON */
+.clear-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: var(--danger);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+/* Tablet */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  form {
+    flex-direction: column;
+  }
+
+  form button {
+    width: 100%;
+  }
+
+  .todo-item {
+    flex-direction: row;
+  }
+}
