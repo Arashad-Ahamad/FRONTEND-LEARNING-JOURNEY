@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "urbanist";
+}
+
+p,
+li,
+a,
+button {
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2e86c1;
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* HEADER */
+header {
+  height: 10rem;
+  background-color: #d4e6f1;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  width: 100%;
+  position: relative; /* 🔥 IMPORTANT */
+}
+
+.container {
+  max-width: 132rem;
+  margin: auto;
+  height: 10rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.navbar-grid {
+  grid-template-columns: 0.5fr 1fr auto;
+  align-items: center;
+  height: 10rem;
+  padding: 0 3.2rem;
+}
+
+/* DESKTOP MENU */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3.2rem;
+}
+
+/* HAMBURGER */
+.ham-menu {
+  display: none;
+  font-size: 2.5rem;
+}
+
+/* ================= MOBILE ================= */
+@media screen and (max-width: 998px) {
+  .menu-web {
+    display: none;
+  }
+
+  .ham-menu {
+    display: block;
+    text-align: end;
+  }
+
+  .menu-mobile {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff; /* 🔥 FIXED */
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px;
+  }
+
+  .menu-mobile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent; /* 🔥 FIXED */
+  }
+
+  .menu-mobile ul li {
+    width: 100%;
+    text-align: center;
+    padding: 1.2rem 0;
+  }
+
+  .menu-mobile ul li:first-child {
+    margin-top: 1rem;
+  }
+
+  .menu-mobile ul li:last-child {
+    margin-bottom: 1rem;
+  }
+}
