@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Noida, Uttar Pradesh"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "9696333696"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "96arashad@gmail.com"
+  }
+]
