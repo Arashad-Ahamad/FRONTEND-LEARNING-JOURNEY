@@ -61,7 +61,7 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-4">
           <div className="text-center text-xs text-gray-500">
-            <p>&copy; 2026 ShopHub. All rights reserved. Developed by Arashad Ahamad</p>
+            <p>&copy; 2026 ShopHub. All rights reserved.</p>
           </div>
         </div>
       </div>
