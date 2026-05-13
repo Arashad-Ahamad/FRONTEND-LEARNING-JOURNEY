@@ -1,0 +1,456 @@
+/* ==================== GLOBAL STYLES ==================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* ==================== MAIN APP CONTAINER ==================== */
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ==================== PRODUCTS SECTION ==================== */
+.products {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.products h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #667eea;
+  display: inline-block;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Product Card */
+.products-grid > div {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.products-grid > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Product Image */
+.products-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 1rem;
+  background: #f8f9fa;
+  transition: transform 0.3s ease;
+}
+
+.products-grid > div:hover img {
+  transform: scale(1.05);
+}
+
+/* Product Title */
+.products-grid h4 {
+  font-size: 1rem;
+  padding: 0 1rem;
+  margin: 0.5rem 0;
+  color: #333;
+  min-height: 50px;
+  line-height: 1.4;
+}
+
+/* Product Price */
+.products-grid p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ff4757;
+  padding: 0 1rem;
+  margin: 0.5rem 0;
+}
+
+/* Add to Cart Button */
+.products-grid button {
+  width: calc(100% - 2rem);
+  margin: 0 1rem 1rem 1rem;
+  padding: 10px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.products-grid button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.products-grid button:active {
+  transform: scale(0.98);
+}
+
+/* ==================== CART SECTION ==================== */
+.cart {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 20px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.cart h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #ff4757;
+  display: inline-block;
+}
+
+/* Cart Items Container */
+.cart > div:not(:first-child) {
+  margin-top: 1rem;
+}
+
+/* Individual Cart Item */
+.cart > div > div {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  border-left: 4px solid #667eea;
+}
+
+.cart > div > div:hover {
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Item Title */
+.cart h4 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Cart Item Quantity */
+.cart p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+.cart p strong {
+  color: #667eea;
+}
+
+/* Remove Button */
+.cart button {
+  padding: 6px 12px;
+  background: #ff4757;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.cart button:hover {
+  background: #ff3838;
+  transform: scale(1.05);
+}
+
+/* Clear Cart Button */
+.cart button:last-child {
+  background: #ff4757;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.cart button:last-child:hover {
+  background: #ff3838;
+  transform: scale(1.02);
+}
+
+/* Empty Cart Message */
+.cart p:first-of-type {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  font-size: 1.1rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+/* ==================== LOADING STATE ==================== */
+h2:first-child {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+
+/* Loading Animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.loading {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* ==================== ERROR STATE ==================== */
+.error {
+  background: #fff3f3;
+  color: #ff4757;
+  border: 2px solid #ff4757;
+}
+
+/* ==================== SCROLLBAR STYLING ==================== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #764ba2;
+}
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  .products {
+    padding: 1rem;
+  }
+  
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .cart {
+    position: static;
+    margin-top: 1rem;
+    max-height: none;
+  }
+  
+  .products h2, .cart h2 {
+    font-size: 1.5rem;
+  }
+  
+  .products-grid h4 {
+    font-size: 0.9rem;
+    min-height: 40px;
+  }
+  
+  .products-grid p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .products, .cart {
+    padding: 1rem;
+  }
+  
+  .products-grid button {
+    padding: 8px;
+  }
+}
+
+/* ==================== ANIMATIONS ==================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.products, .cart {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* ==================== UTILITY CLASSES ==================== */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+/* ==================== BADGE FOR CART COUNT (Optional) ==================== */
+.cart-badge {
+  background: #ff4757;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+/* ==================== PRODUCT CARD IMPROVEMENTS ==================== */
+.products-grid > div {
+  position: relative;
+}
+
+/* Discount Badge (Optional) */
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff4757;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  z-index: 1;
+}
+
+/* Rating Stars (Optional) */
+.rating {
+  color: #ffc107;
+  font-size: 0.8rem;
+  padding: 0 1rem;
+  margin: 0.3rem 0;
+}
+
+/* ==================== BUTTON VARIANTS ==================== */
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+}
+
+.btn-danger {
+  background: #ff4757;
+  color: white;
+  border: none;
+}
+
+.btn-success {
+  background: #28a745;
+  color: white;
+  border: none;
+}
+
+/* ==================== FORM ELEMENTS (If needed) ==================== */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.1);
+}
+
+/* ==================== GRID LAYOUT IMPROVEMENTS ==================== */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==================== PRINT STYLES ==================== */
+@media print {
+  body {
+    background: white;
+  }
+  
+  .products-grid button,
+  .cart button {
+    display: none;
+  }
+  
+  .products, .cart {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+}
