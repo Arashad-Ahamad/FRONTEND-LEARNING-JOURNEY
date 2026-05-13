@@ -1,0 +1,28 @@
+/* Required to know */
+
+/* Container */
+.container {
+    grid-template-rows: none; /* Row sizes will be determined by content */
+    grid-template-columns: none; /* Column sizes will be determined by content */
+    column-gap: normal; /* Default gap between columns */
+    row-gap: normal; /* Default gap between rows */
+}
+
+/* Children (Grid Items) */
+.children {
+    grid-column-start: auto; /* Grid item will start at the default position */
+    grid-column-end: auto; /* Grid item will end at the default position */
+    grid-row-start: auto; /* Grid item will start at the default position */
+    grid-row-end: auto; /* Grid item will end at the default position */
+}
+
+
+/* optional to know */
+
+/* Container */
+.container {
+    grid-template-areas: none; /* Default value, no specific areas for grid items */
+    grid-auto-rows: auto; /* Automatically set the height of rows based on content */
+    grid-auto-columns: auto; /* Automatically set the width of columns based on content */
+    grid-auto-flow: row; /* Default value, grid items will flow in rows */
+}

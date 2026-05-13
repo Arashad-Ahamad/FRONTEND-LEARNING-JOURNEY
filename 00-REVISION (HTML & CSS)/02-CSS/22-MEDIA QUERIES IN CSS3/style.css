@@ -1,0 +1,36 @@
+.square {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border: 16px solid teal;
+}
+/* media  queries level 4  */
+
+/* @media (orientation:portrait){
+  .square {
+    background-color: yellowgreen;
+  }
+}  */
+/* @media (orientation:portrait) and (width > 400px){
+  .square {
+    background-color: yellowgreen;
+  }
+} */
+/* @media (width > 700px) {
+  .square {
+    background-color: yellowgreen;
+    border: 16px solid red;
+  }
+} */
+@media (width < 700px) {
+  .square {
+    background-color: yellowgreen;
+    border: 16px solid red;
+  }
+}
+/* @media (500px<= width <= 700px){
+  .square {
+    background-color: yellowgreen;
+    border: 16px solid red;
+  }
+}  */

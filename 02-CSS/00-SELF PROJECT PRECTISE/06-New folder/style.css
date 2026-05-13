@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-weight: 800;
+    font-family: [Montserrat](https://fonts.google.com/specimen/Montserrat);
+
+
+    
+}
+.box
+{
+    position: fixed;
+    top: 110px;
+    left: 410px;
+    width: 560px;
+    height: 430px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+background-image: url(/product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; }
+    .a{
+        position: relative;
+        left: 57%;
+        color:#B6B6C3;
+    }
+   .box h1{display: flex;
+        position: relative;
+        left: 57%;
+        color: #1B2128;
+    }
+    .l{position: relative;
+        left: 57%;
+        color: #B6B6C3;
+    
+
+    }

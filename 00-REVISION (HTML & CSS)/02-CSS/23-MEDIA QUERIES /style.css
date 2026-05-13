@@ -1,0 +1,38 @@
+.square {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border: 16px solid teal;
+}
+/* media queries  level 3 */
+
+/* @media ( max-width:700px){
+  .square {
+    background-color: yellowgreen;
+    border: 16px solid red;
+  }
+} */
+@media (min-width: 700px) {
+  .square {
+    background-color: yellowgreen;
+    border: 16px solid red;
+  }
+}
+/* @media ( min-height:500px){
+  .square {
+    background-color: yellowgreen;
+    border: 16px solid red;
+  }
+} */
+/* @media ( max-height:500px) {
+  .square {
+    background-color: yellowgreen;
+    border: 16px solid red;
+  }
+} */
+/* @media print and (max-width: 900px){
+  .square {
+    background-color: yellowgreen;
+    border: 16px solid red;
+  }
+} */

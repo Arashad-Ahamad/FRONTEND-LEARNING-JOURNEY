@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Active Button */
+.activeBtn {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Inactive Button */
+.normalBtn {
+  background-color: gray;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+

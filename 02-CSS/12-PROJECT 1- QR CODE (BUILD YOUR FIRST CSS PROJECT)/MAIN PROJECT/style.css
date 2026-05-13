@@ -1,0 +1,30 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family:[Outfit](https://fonts.google.com/specimen/Outfit);
+    text-align: center;
+    font-size: 15px;
+}
+.card{background-color: #FFFFFF;        
+    height: 470px;
+    max-width: 302px;
+    box-shadow: 1px 2px 2px 0px rgba( 0, 0,0, 0.4);
+    border-radius: 15px;
+    position: fixed;
+    margin: auto;
+    inset: 0px;
+    padding: 1rem;  b   
+    padding-bottom:2rem;
+
+
+}
+img{
+    max-width: 100%;
+border-radius: 10px;
+}
+h2{
+color:hsl(218, 44%, 22%);
+font-weight:800;
+}
+p{
+    color: hsl(220, 15%, 55%);
+}

@@ -1,0 +1,82 @@
+.container{
+    display: grid;
+    background-color: rgb(69, 170, 204);
+    min-height: 60vh;
+margin: 2rem;
+    /* grid-auto-flow: column; */
+    /* grid-auto-flow: row; */
+    /* grid-auto-flow: column ; */
+/* grid-template-columns: repeat(4, 100px); */
+/* grid-template-columns: repeat(4, auto); */
+/* grid-template-columns: repeat(4, 1fr); */  
+/* grid-template-columns: repeat(auto-fill, 100px); */
+grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+
+/* grid-template-columns: repeat(5, minmax(80px,140px)); */
+/* grid-template-columns: repeat(5, minmax(80px, 1fr)); */ 
+
+
+
+
+/* grid-template-rows: repeat(6, 100px); */
+/* grid-template:repeat(6, 100px)/repeat(4, 100px) ; */
+/* grid-template:none /repeat(4, 100px); */
+/* grid-auto-columns: 100px; */
+/* grid-auto-rows: 100px; */
+/* align-items: center; */
+/* justify-items: center; */
+/* align-items: end; */
+/* justify-items: end; */
+}
+.box{
+    
+    color: white; 
+    font-size: 4rem;
+
+}
+.box-1{
+    background-color: pink;
+    /* grid-column-start: 3;
+    grid-column-end: 5; */
+/* grid-column: 3/5; */
+/* grid-row: 2/4; */
+
+}
+.box-2{
+    background-color: blueviolet ;
+}
+.box-3{
+    background-color:blue;
+}
+.box-4{ 
+    background-color:brown;
+}
+.box-5{
+    background-color: coral;
+}
+.box-6{
+    background-color:aqua;
+     /* align-self: stretch;
+     justify-self: stretch;
+     display: flex;
+     justify-content: center;
+     align-items: center; */
+     /* margin-inline: auto; */
+     /* margin-block: auto; */
+}
+.box-7{
+    background-color: olive;}
+.box-8{
+    background-color:yellowgreen;
+}
+.box-9{
+    background-color: black;
+}
+.box-10{ 
+    background-color:violet;
+}
+.box-11{
+    background-color: tan;
+}
+.box-12{
+    background-color: tomato; }

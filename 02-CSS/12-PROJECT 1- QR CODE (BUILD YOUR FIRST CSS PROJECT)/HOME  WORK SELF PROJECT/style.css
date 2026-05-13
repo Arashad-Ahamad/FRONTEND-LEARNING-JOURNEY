@@ -1,0 +1,61 @@
+body{
+    background: #08101B;
+    font-size: 18px;
+    font-family: [Outfit](https://fonts.google.com/specimen/Outfit);
+    
+
+}
+.one{
+    width: 320px;
+    height: 565px;
+background-color: #0D1726;
+box-shadow: 1px 1px 5px 2px rgba(0,0, 0, 0.4);
+position: fixed;
+inset: 0px;
+margin: auto;
+border-radius: 1rem;
+padding: 25px;
+}
+.one img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.one h2{
+    color:#F5FBFF;
+}
+.one .a{
+    color: #8699B8;
+}
+.b{
+    color: #05FDFB;
+}
+.c{
+color:#8699B8 ;
+position: relative;
+left: 70%;
+bottom: 40px;
+  }
+  .d{
+    color:#8699B8;
+    position: relative;
+    bottom: 80px;
+    left: 60px;
+  }
+  .m{
+    color:#F5FBFF;
+  }
+  .one .k{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    border: 2px solid white;
+    position: relative;
+    bottom: 25px;
+  }
+  .j{
+    position: relative;
+    bottom: 35px;  
+  }
+  .x{
+    color: #F5FBFF;
+  }

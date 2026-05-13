@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+ul {
+  background-color: thistle;
+  height: 300px;
+  /* overflow: scroll; */
+  overflow-y: scroll;
+  /* overflow-x: scroll; */
+  /* margin-top: -100px; */
+}
+
+.html {
+  background-color: brown;
+  /* position: static; */
+  /* position: unset; */
+  position: sticky;
+  top: 90px;
+}
+
+header {
+  background-color: teal;
+  position: sticky;
+  top: 0px;
+}

@@ -1,0 +1,27 @@
+.container {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.add-card{
+    border-radius: 100%;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: yellowgreen;
+   
+}

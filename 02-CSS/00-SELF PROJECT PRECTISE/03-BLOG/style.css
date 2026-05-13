@@ -1,0 +1,26 @@
+
+body{
+    /* margin: 0px; */
+}
+.container{
+    display: flex;
+}
+img{
+    float: left;
+    margin-right: 1rem;
+    max-width: 200px;
+    width: 100%;
+    
+}
+.one{
+    margin-right:1rem;
+    width: 500px;
+}
+.pic{
+    float: left;
+}
+
+
+p{
+    margin-top: -3px;
+}

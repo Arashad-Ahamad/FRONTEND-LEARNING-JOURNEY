@@ -1,0 +1,35 @@
+.parent {
+  display: flex;
+  height: 500px;
+  border: 10px solid teal;
+  padding: 8px;
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  /* align-items: baseline; */
+  /* align-items: flex-start; */
+}
+.parent span {
+  background-color: orange;
+  /* order: 10; */
+  /* flex: 100px 2 0; */
+  /* flex: 1; */
+  /* font-size: 32px; */
+}
+.parent p {
+  background-color: violet;
+  margin: 0;
+  /* order: 1; */
+  /* order: 20; */
+}
+.parent a {
+  background-color: yellowgreen;
+  /* order: -3; */
+  /* align-self: flex-end; */
+  /* align-self: center; */
+  /* align-self: flex-start; */
+  /* margin-block: auto; */
+  /* margin-inline: auto; */
+}
+.parent > * {
+  width: 200px;
+}

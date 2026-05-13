@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+body {
+  padding-top: 80px;
+  background-color: greenyellow;
+}
+p {
+  color: black;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 26px;
+  background-color: #334155;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  z-index: 1000;
+}
+.logo img {
+  width: 40px;
+  border-radius: 50%;
+  filter: invert(100%);
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 15px;
+}
+ul li a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+ul li:not(:last-child) a:hover {
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
+  color: #4ca9e1;
+  text-decoration-color: #ffffff;
+}
+
+ul li .btn {
+  border: none;
+  outline: none;
+  font-weight: 700;
+  padding: 8px 20px;
+  background-color: #4ca9e1;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #0091ff;
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  ul {
+    display: none;
+  }
+  .hamActive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #30363f;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+
+    left: 0;
+    top: 75px;
+  }
+  .hamActive li {
+    padding: 12px 0;
+  }
+}

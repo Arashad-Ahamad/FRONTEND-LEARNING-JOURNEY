@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(252, 240, 255, 1);
+  font-family: "Nunito", serif;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  padding-inline: 16px;
+}
+
+.top-strip {
+  background-color: rgba(157, 64, 228, 1);
+  height: 50px;
+}
+
+.profile-card {
+  max-width: 335px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgba(157, 64, 228, 1);
+  padding: 40px 22px 26px 22px;
+  position: relative;
+}
+
+.heart-share-icon {
+  justify-content: space-between;
+  display: flex;
+  cursor: pointer;
+}
+
+.profile-content {
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 60px;
+  position: relative;
+
+}
+
+.social-media {
+  border-top: 2px solid rgba(245, 245, 245, 1);
+  padding-block: 16px;
+
+}
+
+.view-profile-button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(90deg, #FECD2F 0%, #FEB02F 100%);
+  border-radius: 25px;
+  padding: 8px 20px 8px 20px;
+  margin-bottom: 22px;
+  font-size: 15px;
+}
+
+.view-profile-button:hover {
+  background-image: linear-gradient(0deg, #FECD2F 0%, #FEB02F 100%);
+}
+
+.card-heading {
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.card-subtitle {
+  margin-top: 6px;
+  font-weight: 600;
+  color: rgba(166, 166, 166, 1);
+
+}
+
+.avatar-container {
+  margin-top: -60px;
+  display: inline-block;
+  position: relative;
+
+}
+
+.avtar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 8px solid white;
+
+}
+
+
+.green-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background-color: rgba(135, 229, 123, 1);
+  border: 3.5px solid rgba(255, 255, 255, 1);
+  box-sizing: content-box;
+  position: absolute;
+  right: 0;
+  bottom: 18px;
+}
+
+.circle {
+  background-image: linear-gradient(0deg, #9C45DE 0%, #A453E2 100%);
+  border-radius: 100%;
+  position: absolute;
+}
+
+.circle-1 {
+  width: 160px;
+  height: 160px;
+  left: 130px;
+  top: 10px;
+
+}
+
+.circle-2 {
+  width: 93px;
+  height: 93px;
+  top: 100px;
+  left: 8px;
+}
+
+.social-media-icon+.social-media-icon {
+  margin-left: 11px;
+}
+
+
+.bottom-strip {
+  background-color: rgba(157, 64, 228, 1);
+  height: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+
+@media (max-width:370px) {
+
+  .circle-1,
+  .circle-2 {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+h1{ 
+    width: 400px;
+    background-color: aqua;
+    padding: 20px;
+    border: 10px solid yellowgreen;
+    margin: 20px;
+    outline: 10px solid tomato;
+    border-radius: 20px;
+
+}
+p{width: 430px;
+    background-color: blueviolet;
+    font-size: 22px;
+}
+span{
+    display:inline-block;
+    background-color: brown;
+    height: 300px;
+    padding: 30px;
+    border: 40px solid slategrey;
+    margin: 25px;
+}

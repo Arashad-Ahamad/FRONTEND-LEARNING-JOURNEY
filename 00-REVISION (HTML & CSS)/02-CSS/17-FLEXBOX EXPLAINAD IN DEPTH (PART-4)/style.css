@@ -1,0 +1,38 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* height: 500px; */
+  flex-wrap: wrap;
+  gap: 16px;
+  /* row-gap: 20px; */
+  /* column-gap: 32px; */
+}
+.parent span {
+  background-color: orange;
+  /* width: 100%; */
+  /* flex-basis: 100%; */
+  /* flex-basis: 100px; */
+}
+.parent p {
+  background-color: violet;
+  margin: 0;
+  /* width: 100%; */
+  /* flex-basis: 100%; */
+  /* flex-basis: 100px; */
+}
+.parent a {
+  background-color: yellowgreen;
+  /* width: 100%; */
+  /* flex-basis: 100%; */
+  /* flex-basis: 100px; */
+}
+.parent > * {
+  width: 200px;
+  /* flex-shrink: 0; */
+  /* margin-left: 80px; */
+}
+/* .parent > * + *{
+  margin-left: 16px;
+
+} */

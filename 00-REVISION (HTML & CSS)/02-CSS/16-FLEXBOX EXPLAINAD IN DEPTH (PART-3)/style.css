@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.parent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: row; Default behavior */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+  /* flex-direction: column-reverse; */
+}
+.parent span {
+  background-color: orange;
+  width: 200px;
+}
+.parent p {
+  background-color: violet;
+  margin: 0;
+  width: 300px;
+}
+.parent a {
+  background-color: yellowgreen;
+  width: 200px;
+  /* height: 100px; */
+  padding: 1rem;
+}

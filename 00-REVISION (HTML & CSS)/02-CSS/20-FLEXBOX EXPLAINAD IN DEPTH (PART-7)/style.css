@@ -1,0 +1,27 @@
+.parent {
+  /* display: flex; */
+  display: inline-flex;
+  height: 300px;
+  border: 10px solid teal;
+  padding: 8px;
+  /* align-items: flex-start; */
+  align-items: center;
+  /* align-content: center; */
+  /* align-content: flex-end; */
+  /* align-content: flex-start; */
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.parent span {
+  background-color: orange;
+}
+.parent p {
+  background-color: violet;
+  margin: 0;
+}
+.parent a {
+  background-color: yellowgreen;
+}
+.parent > * {
+  width: 100px;
+}

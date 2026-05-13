@@ -1,0 +1,10 @@
+#box b {
+display: none;
+}
+#heading {
+    visibility: hidden;
+}
+
+ul li {
+    display: none;
+}

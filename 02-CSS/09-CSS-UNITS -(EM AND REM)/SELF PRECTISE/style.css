@@ -1,0 +1,17 @@
+html{
+    font-size: 30px;
+}
+body{
+    /* font-size: 0.5em; */
+}
+section{
+    background-color: aquamarine;
+    /* font-size: 2em; */
+}
+.one{
+    background-color: brown;
+    /* font-size: 2em;
+    width: 2em;
+    padding: 2em; */
+    font-size: 1rem;
+}

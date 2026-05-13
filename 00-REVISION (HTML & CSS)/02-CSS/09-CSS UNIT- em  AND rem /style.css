@@ -1,0 +1,24 @@
+html {
+  /* font-size: 2em; */
+  /* font-size: 10px; */
+}
+body {
+  margin: 0;
+  /* font-size: 2em; */
+}
+* {
+  box-sizing: border-box;
+}
+
+section {
+  /* background-color: hotpink; */
+  font-size: 2em;
+  /* font-size: 2rem; */
+}
+.box {
+  background-color: yellowgreen;
+  font-size: 2em;
+  width: 10em;
+  padding: 1em;
+  /* font-size: 2rem; */
+}

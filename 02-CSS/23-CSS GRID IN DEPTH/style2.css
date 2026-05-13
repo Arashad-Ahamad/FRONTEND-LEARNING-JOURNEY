@@ -1,0 +1,53 @@
+.counainer{
+    display: grid;
+    background-color: lightblue;
+    min-height: 60vh;
+    /* grid-template-columns: 100px 100px 100px 100px; */
+    /* grid-template-rows: 100px 100px 100px 100px; */
+ /* column-gap: 20px; */
+ /* row-gap: 20px; */
+ /* gap: 10px; */
+ grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+    
+    color: white;
+    font-size: 4rem;
+}
+.box-1{
+    background-color: pink;
+    /* grid-column-start : 3; */
+    grid-row-start:2;
+
+}
+.box-2{
+    background-color: blueviolet ;
+}
+.box-3{
+    background-color:blue;
+}
+.box-4{ 
+    background-color:brown;
+}
+.box-5{
+    background-color: coral;
+}
+.box-6{
+    background-color:aqua;
+}
+.box-7{
+    background-color: olive;}
+.box-8{
+    background-color:yellowgreen;
+}
+.box-9{
+    background-color: black;
+}
+.box-10{ / 
+    background-color: violet;
+}
+.box-11{
+    background-color: tan;
+}
+.box-12{
+    background-color: tomato; }

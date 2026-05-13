@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="script.js"></script>
+  <title>Dialog Boxes</title>
+</head>
+
+<body>
+  <h1>Dialog Boxes</h1>
+  <h2>There are three types of Dialog Boxes</h2>
+  <ol>
+    <li>
+      <code>alert("Your message goes here.")</code> →
+      <strong>No return value → undefined</strong>
+      ✔ Used to show a message or notification.
+      Example:
+      <pre>
+alert("Welcome to my website!");
+// Output: Shows a popup message with "Welcome to my website!"
+            </pre>
+    </li>
+
+    <li>
+      <code>confirm("Your message goes here.")</code> →
+      <strong>Returns true or false</strong>
+      ✔ Used to get confirmation from the user.
+      Example:
+      <pre>
+const response = confirm("Are you sure?");
+console.log(response);
+// Output: true (if OK is clicked) or false (if Cancel is clicked)
+            </pre>
+    </li>
+
+    <li>
+      <code>prompt("Your message goes here.")</code> →
+      <strong>Returns user input or null</strong>
+      ✔ Used to take input from the user.
+      Example:
+      <pre>
+const name = prompt("What is your name?");
+console.log(name);
+// Output: User input or null (if Cancel is clicked)
+            </pre>
+    </li>
+  </ol>
+</body>
+
+</html>

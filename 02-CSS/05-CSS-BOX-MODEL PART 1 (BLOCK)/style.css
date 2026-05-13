@@ -1,0 +1,27 @@
+.one{
+    background-color: aqua;
+}
+.arshad{
+    width: 1000px;
+    height: 800px;
+}
+.father{
+    width: 50%;
+    height: 50%;
+}
+.two{
+    background-color: blueviolet;
+    /* width: 500px; */
+    /* max-width: 500px; */
+    /* height: 300px; */
+    /* overflow: hidden; */
+    /* min-height: 100px; */
+    width: 50%;
+    height: 50%;
+     padding: 20px; 
+    /* padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px; ;
+     */
+ }

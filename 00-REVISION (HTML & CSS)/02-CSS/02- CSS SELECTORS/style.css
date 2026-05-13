@@ -1,0 +1,32 @@
+.html {
+  color: #f26524;
+}
+.css {
+  color: #2a64f0;
+}
+.javascript {
+  color: #f0c823;
+}
+.react {
+  color: #61d9fb;
+}
+.web p {
+  background-color: #f26524;
+}
+#Lorem {
+  background-color: teal;
+}
+[class="Arashad"] {
+  background-color: darkgray;
+  font-size: 25px;
+}
+[ahamad] {
+  background-color: green;
+}
+.intro:hover {
+  color: brown;
+  font-size: 25px;
+}
+h1:hover {
+  color: blue;
+}

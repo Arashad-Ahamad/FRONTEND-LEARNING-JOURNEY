@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+}
+/* .first-container{
+    background-color: hotpink;
+    position: relative;
+    z-index: 5;
+} */
+/* .second-container{
+    background-color: cadetblue;
+    margin-left: 3rem;
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+   
+} */
+* {
+  box-sizing: border-box;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: -100px;
+}
+.red-box {
+  background-color: red;
+  position: relative;
+  /* position: fixed; */
+  /* z-index: 10; */
+}
+.green-box {
+  background-color: green;
+  left: 2rem;
+  position: relative;
+  /* position: absolute; */
+  /* position: sticky; */
+  /* z-index: 2; */
+}
+.blue-box {
+  background-color: blue;
+  left: 3rem;
+  position: relative;
+  /* z-index: -1; */
+}
