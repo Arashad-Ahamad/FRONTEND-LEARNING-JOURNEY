@@ -19,7 +19,7 @@ const Experience = () => {
         'React.js',
         'Tailwind CSS',
         'JavaScript',
-        'Git',
+        'Git & GitHub',
         'REST API',
       ],
     },
@@ -44,7 +44,7 @@ const Experience = () => {
                   <h3>{exp.title}</h3>
                   <div className="company">{exp.company}</div>
                 </div>
-                {/* Duration badge removed - ab nahi dikhega */}
+                
               </div>
 
               <div className="timeline-details">

@@ -2,7 +2,7 @@
 
 My personal frontend developer portfolio website built with **React.js** and **CSS3**.
 
-## 🌐 Live Demo
+## 🌐 Live
 
 [View Portfolio](https://react-portfolio-arashad.vercel.app/)
 

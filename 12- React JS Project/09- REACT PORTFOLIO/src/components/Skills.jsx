@@ -2,13 +2,13 @@ import {
   DiHtml5, DiCss3, DiJavascript1, DiReact, DiGit, DiNpm 
 } from 'react-icons/di'
 import { 
-  SiTailwindcss, SiRedux, SiAxios, SiVite, SiGithub, SiNetlify, SiVercel 
+  SiTailwindcss, SiRedux, SiAxios, SiVite, SiGithub, SiNetlify, SiVercel
 } from 'react-icons/si'
 import { 
-  BiMobile, BiCodeAlt 
+  BiMobile, BiCodeAlt, BiDesktop, BiBugAlt 
 } from 'react-icons/bi'
 import { 
-  FaDatabase, FaServer 
+  FaDatabase, FaServer, FaCode 
 } from 'react-icons/fa'
 
 const Skills = () => {
@@ -32,6 +32,8 @@ const Skills = () => {
     { name: 'npm & Vite', icon: <DiNpm /> },
     { name: 'Git & GitHub', icon: <DiGit /> },
     { name: 'Netlify & Vercel', icon: <SiNetlify /> },
+    { name: 'VS Code', icon: <FaCode /> },           
+    { name: 'Chrome DevTools', icon: <BiBugAlt /> }, 
   ]
 
   return (
@@ -42,10 +44,8 @@ const Skills = () => {
         <p className="section-subtitle">Technologies and tools I work with</p>
 
         <div className="skills-grid">
-          {/* Frontend Skills Card */}
           <div className="skill-card">
             <div className="skill-card-header">
-              <span className="skill-icon">⚡</span>
               <h3>Frontend Development</h3>
             </div>
             <div className="skill-badges">
@@ -58,10 +58,8 @@ const Skills = () => {
             </div>
           </div>
 
-          {/* Tools & Technologies Card */}
           <div className="skill-card">
             <div className="skill-card-header">
-              <span className="skill-icon">🛠️</span>
               <h3>Tools & Technologies</h3>
             </div>
             <div className="skill-badges">

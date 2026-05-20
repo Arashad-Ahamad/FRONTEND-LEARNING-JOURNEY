@@ -8,10 +8,16 @@ const Hero = () => {
     twitter: 'https://x.com/ArashadAhamad10'
   }
 
-  const resumeLink = 'https://drive.google.com/file/d/1is9B3UFIVNy8vQW2K5z-2_AKxNhqLkmO/view?usp=sharing'
+  const resumeLink = 'https://drive.google.com/uc?export=download&id=1is9B3UFIVNy8vQW2K5z-2_AKxNhqLkmO'
 
   const handleDownloadResume = () => {
-    window.open(resumeLink, '_blank')
+    // Create hidden anchor tag and trigger download
+    const link = document.createElement('a')
+    link.href = resumeLink
+    link.download = 'Arashad_Ahamad_Resume.pdf' // File name for download
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   const handleHireMe = () => {

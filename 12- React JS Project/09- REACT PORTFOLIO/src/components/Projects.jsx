@@ -44,7 +44,7 @@ const Projects = () => {
       features: ['Dark/Light mode', 'Fully responsive', 'Smooth scrolling', 'Active navigation', 'Contact form'],
       tech: ['React', 'CSS', 'React Icons', 'Vite'],
       github: 'https://github.com/Arashad-Ahamad/react-portfolio',
-      live: 'https://arashad-portfolio.netlify.app/',
+      live: 'https://react-portfolio-arashad.vercel.app/',
       image: portfolioImg
     }
   ]
@@ -77,7 +77,7 @@ const Projects = () => {
                 <p className="project-description">{project.description}</p>
                 
                 <div className="project-features">
-                  <span className="features-title">✨ Key Features:</span>
+                  <span className="features-title"> Key Features:</span>
                   <div className="features-list">
                     {project.features.slice(0, 3).map((feature, idx) => (
                       <span key={idx} className="feature-tag">{feature}</span>
@@ -96,7 +96,7 @@ const Projects = () => {
                     <FiGithub /> Code
                   </a>
                   <a href={project.live} target="_blank" rel="noopener noreferrer" className="project-link live">
-                    <FiExternalLink /> Live Demo
+                    <FiExternalLink /> Live
                   </a>
                 </div>
               </div>
