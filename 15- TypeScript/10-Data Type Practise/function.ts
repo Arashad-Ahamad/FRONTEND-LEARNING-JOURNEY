@@ -2,14 +2,14 @@ function greet():string {
     return 'Hello'
 }
 
-const a = greet()
+const a:string = greet()
 console.log(a);
 
 function add(a:number, b:number):number {
     return a+b
 }
 
-const result = add(10, 2)
+const result:number = add(10, 2)
 console.log(result);
 
 function message():void {
