@@ -112,7 +112,7 @@ Hi! I'm **Arashad Ahamad**, a self-taught Front-End Developer from India. I buil
 
 | Platform | Link |
 |----------|------|
-| **Portfolio** | [react-portfolio-arashad.vercel.app](https://react-portfolio-arashad.vercel.app) |
+| **Portfolio** | [arashad.vercel.app](https://arashad.vercel.app/) |
 | **LinkedIn** | [linkedin.com/in/arashad-ahamad](https://linkedin.com/in/arashad-ahamad-768935337) |
 | **GitHub** | [github.com/Arashad-Ahamad](https://github.com/Arashad-Ahamad) |
 
