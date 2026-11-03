@@ -46,7 +46,7 @@ A CRUD task manager built with **Next.js Server Actions** — no separate API ro
 - 🔄 Auto-reset form — success message auto-dismisses after 2s
 - 🎨 Shadcn UI + Radix primitives
 
-🔗 **[Live Demo](https://taskflow-xxx.vercel.app)** · **[Source Code](./18-project/01-taskflow)**
+🔗 **[Live Demo](https://taskflow-arashad.vercel.app/)** · **[Source Code](./18-project/01-taskflow)**
 
 ---
 
@@ -63,7 +63,7 @@ A responsive admin dashboard with collapsible sidebar, dark/light theme toggle, 
 - 🌗 Theme toggle with localStorage hydration (no flicker)
 - 🔒 Type-safe Redux slices & API responses (FakeStore API)
 
-🔗 **[Live Demo](https://devboard-xxx.vercel.app)** · **[Source Code](./18-project/02-devboard)**
+🔗 **[Live Demo](https://devboard-arashad.vercel.app/)** · **[Source Code](./18-project/02-devboard)**
 
 ---
 
