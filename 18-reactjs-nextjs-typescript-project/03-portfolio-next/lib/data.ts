@@ -72,7 +72,7 @@ export const projects: Project[] = [
       "Light, dark and system theme built on Shadcn UI",
       "Server-rendered product pages with loading and error states",
     ],
-    live: "https://shophub-ecommerce-app.vercel.app/",
+    live: "https://ecommerce-arashad.vercel.app/",
     github: "https://github.com/Arashad-Ahamad/ecommerce-app",
     image: "/images/shophub.webp",
   },
