@@ -1,6 +1,6 @@
 # Arashad Ahamad — Portfolio
 
- **Live:** [arashad-portfolio.vercel.app](https://arashad-portfolio.vercel.app)
+ **Live:** [arashad.vercel.app](https://arashad.vercel.app/)
 
 A modern, responsive personal portfolio built with **Next.js 16 (App Router)**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Shadcn UI**. Features a dark-first design, smooth scroll navigation, and a clean showcase of projects and experience.
 
