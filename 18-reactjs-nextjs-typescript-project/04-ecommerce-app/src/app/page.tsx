@@ -1,10 +1,36 @@
 import ProductCard from "@/components/product/ProductCard";
 import { fetchAllProducts } from "@/services/api";
-export const dynamic = 'force-dynamic';
+import RetryButton from "@/components/product/RetryButton";
+
+export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
-  const products = await fetchAllProducts();
+  let products: Awaited<ReturnType<typeof fetchAllProducts>> = [];
+  let errorMessage: string | null = null;
 
+  try {
+    products = await fetchAllProducts();
+  } catch (err) {
+    errorMessage =
+      err instanceof Error ? err.message : "An unknown error occurred";
+    console.error("HomePage failed to load products:", errorMessage);
+  }
+
+  // ----- Error state -----
+  if (errorMessage) {
+    return (
+      <div className="container mx-auto flex min-h-[60vh] flex-col items-center justify-center px-4 text-center">
+        <h2 className="mb-2 text-2xl font-bold">Something went wrong!</h2>
+        <p className="mb-1 text-muted-foreground">Failed to load data</p>
+        <p className="mb-6 max-w-md text-xs text-muted-foreground/80">
+          {errorMessage}
+        </p>
+        <RetryButton />
+      </div>
+    );
+  }
+
+  // ----- Success state -----
   return (
     <div className="container mx-auto px-4 py-6 sm:py-8">
       {/* Hero Section */}
@@ -24,7 +50,10 @@ export default async function HomePage() {
       </div>
 
       {/* Products Grid */}
-      <h2 id="products" className="mb-4 scroll-mt-20 text-xl font-bold sm:mb-6 sm:text-2xl">
+      <h2
+        id="products"
+        className="mb-4 scroll-mt-20 text-xl font-bold sm:mb-6 sm:text-2xl"
+      >
         All Products ({products.length})
       </h2>
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-5 lg:grid-cols-4">
