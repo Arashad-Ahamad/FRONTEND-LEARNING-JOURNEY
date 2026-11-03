@@ -1,4 +1,4 @@
-const REPO = "https://github.com/Arashad-Ahamad/FRONTEND-LEARNING-JOURNEY/tree/main/18-project";
+const REPO = "https://github.com/Arashad-Ahamad/FRONTEND-LEARNING-JOURNEY/tree/main/18-reactjs-nextjs-typescript-project/";
 
 export const profile = {
   name: "Arashad Ahamad",
@@ -41,35 +41,63 @@ export const projects: Project[] = [
     name: "DevBoard",
     description: "Responsive admin dashboard with data tables, charts and a theme toggle.",
     tech: ["Next.js 16", "TypeScript", "Redux Toolkit", "Framer Motion"],
-    features: ["Products table with search, sort and pagination", "Collapsible sidebar and flicker-free theme toggle", "Type-safe Redux slices and API responses"],
+    features: [
+      "Products table with search, sort and pagination",
+      "Collapsible sidebar and flicker-free theme toggle",
+      "Type-safe Redux slices and API responses",
+    ],
     github: `${REPO}/02-devboard`,
     live: "https://devboard-arashad.vercel.app/",
     image: "/images/davboard.png",
-    
   },
   {
     name: "TaskFlow",
     description: "Task manager built on Next.js Server Actions, with no API routes.",
     tech: ["Next.js 16", "TypeScript", "Server Actions", "Zod", "Shadcn UI"],
-    features: ["Add, toggle and delete tasks through Server Actions", "Zod validation on both client and server", "useActionState for loading and error states"],
+    features: [
+      "Add, toggle and delete tasks through Server Actions",
+      "Zod validation on both client and server",
+      "useActionState for loading and error states",
+    ],
     github: `${REPO}/01-taskflow`,
     live: "https://taskflow-arashad.vercel.app/",
     image: "/images/taskflow.png",
   },
   {
-    name: "ShopHub",
-    description: "E-commerce app with cart management and product detail pages.",
-    tech: ["React", "Redux Toolkit", "Tailwind CSS", "Axios", "FakeStore API"],
-    features: ["Add/remove items and update quantity", "Cart persisted in localStorage", "Loading states and error handling"],
+    name: "E-Commerce App",
+    description: "E-commerce app with cart management, product detail pages and a light/dark theme.",
+    tech: ["Next.js 15", "TypeScript", "Redux Toolkit", "Shadcn UI", "Tailwind CSS"],
+    features: [
+      "Cart with quantity updates, persisted in localStorage",
+      "Light, dark and system theme built on Shadcn UI",
+      "Server-rendered product pages with loading and error states",
+    ],
     live: "https://shophub-ecommerce-app.vercel.app/",
-    github: "https://github.com/Arashad-Ahamad/shophub-ecommerce-app",
+    github: "https://github.com/Arashad-Ahamad/ecommerce-app",
     image: "/images/shophub.webp",
+  },
+  {
+    name: "Portfolio",
+    description: "Dark-first personal portfolio with smooth navigation, SEO and a dynamic OG image.",
+    tech: ["Next.js 16", "TypeScript", "Tailwind CSS", "Framer Motion", "Shadcn UI"],
+    features: [
+      "Dark-first design with light mode toggle using next-themes",
+      "SEO with metadata, OpenGraph, Twitter cards and a dynamic OG image",
+      "Accessible, fully responsive and type-safe with modular sections",
+    ],
+    live: "https://arashad.vercel.app",
+    github: "https://github.com/Arashad-Ahamad/portfolio-next",
+    image: "/images/portfolio.png",
   },
   {
     name: "WorldAtlas",
     description: "Country explorer with live data from the REST Countries API.",
     tech: ["React", "React Router", "Axios", "REST Countries API"],
-    features: ["Search by name and filter by region", "Sort countries by different fields", "Detail page for every country"],
+    features: [
+      "Search by name and filter by region",
+      "Sort countries by different fields",
+      "Detail page for every country",
+    ],
     live: "https://world-atlas-arashad.netlify.app/",
     github: "https://github.com/Arashad-Ahamad/react-world-atlas",
     image: "/images/world-atlas.webp",
@@ -78,13 +106,16 @@ export const projects: Project[] = [
     name: "React CRUD App",
     description: "Posts manager covering create, read, update and delete.",
     tech: ["React", "Axios", "JSONPlaceholder", "CSS3"],
-    features: ["Full CRUD against a REST API", "Reusable form for add and edit", "Responsive on mobile and desktop"],
+    features: [
+      "Full CRUD against a REST API",
+      "Reusable form for add and edit",
+      "Responsive on mobile and desktop",
+    ],
     live: "https://react-crud-app-arashad.netlify.app/",
     github: "https://github.com/Arashad-Ahamad/react-crud-app",
     image: "/images/crud-app.webp",
-  },
+  }, 
 ];
-
 export const experience = [
   {
     title: "Web Development Intern", org: "Genicminds", meta: "Feb 2026 – May 2026 · Noida, India",
